@@ -14,7 +14,7 @@ Each request made to Adobe Sign is evaluated based on the amount of system resou
 }
 ```
 
-Also, a *Retry-After* HTTP header will be added into the response ([see RFC-7231 Section 7.1.3](https://tools.ietf.org/html/rfc7231#section-7.1.3):)
+Also, a *Retry-After* HTTP header will be added into the response ([see RFC-7231 Section 7.1.3](https://tools.ietf.org/html/rfc7231#section-7.1.3))
 
 ```
 Retry-After: <wait_time_in_seconds>
