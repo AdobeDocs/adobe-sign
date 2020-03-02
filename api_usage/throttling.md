@@ -27,4 +27,4 @@ When the *retryAfter* timer expires, the client's resource count is reset to 0 f
 **NOTE: The *retryAfter* time will be available in March 2020**
 
 ## Steps to take when throttled
-It is recommended that developers should design workflows that can handle the Http 429 exceptions gracefully and use the retry-time from either the response body or from the "Retry-After" header to recover from such errors.
+It is recommended that developers design workflows that can handle the Http 429 exceptions gracefully and use the retry-time from either the response body or from the "Retry-After" header to recover from such errors.
