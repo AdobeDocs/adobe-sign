@@ -106,7 +106,7 @@ In SOAP API, `getDocumentInfo`, `getDocuments`, `getAuditTrail` etc. work on `do
 | :---    |  :----   |
 | [**getDocumentInfosByExternalId**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfosByExternalId) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) query = externalId | 
 
-`externalId` can be used to map your internal IDs to eSign IDs. 
+`externalId` can be used to map your internal IDs to Adobe Sign IDs. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
