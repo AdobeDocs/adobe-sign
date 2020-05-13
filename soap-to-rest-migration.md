@@ -341,7 +341,68 @@ Use status value as `ACTIVE`.
 &nbsp; 
 ## Deprecated Methods:
 ### Access Methods:
-* issueAccessToken   
-### Document Methods:
-* deliverDocument                   
+* issueAccessToken                 
+### Status Methods:
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [**getDocumentUrlByVersion**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentUrlByVersion)    |  [/agreement/{agreementID}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [**getDocumentByVersion **](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentByVersion)    |  [/agreements/{agreementId}/combinedDocument, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocument)  | 
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getDocumentsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentsForUser) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getImagesByVersion](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getImagesByVersion) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getLatestDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocument) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments)
+ |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| 
+[getLatestDocumentUrl](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocumentUrl) | [/agreements/{agrId}/documents/{docId}/url, GET]() \|\| [/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getLatestImages](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestImages) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) \|\| [/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls)
+ |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| SOAP | REST |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| SOAP | REST |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| SOAP | REST |
+
+[initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument)
+
+
+
+
+[createUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createUser)
+[createAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createAccount)
+
+
 
