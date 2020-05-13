@@ -341,5 +341,7 @@ Use status value as `ACTIVE`.
 &nbsp; 
 ## Deprecated Methods:
 ### Access Methods:
-* issueAccessToken                                                                      
+* issueAccessToken   
+### Document Methods:
+* deliverDocument                   
 
