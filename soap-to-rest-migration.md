@@ -420,9 +420,4 @@ Use status value as `ACTIVE`.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createUser) | None |
-
-&nbsp;  
-| **SOAP Endpoint** | **REST Endpoint**  |
-| :---    |  :----   |
 | [createAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createAccount) | None |
