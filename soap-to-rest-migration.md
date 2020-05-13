@@ -6,7 +6,7 @@ The list below shows the SOAP endpoints with their REST equivalents. Both endpoi
 ## General-purpose Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getBaseUris](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getBaseUris) | [/baseUris, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/baseUris/getBaseUris)  |
+| [**getBaseUris**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getBaseUris) | [/baseUris, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/baseUris/getBaseUris)  |
 
 **Note:** Base URIs: API calls starting v5 of REST API must be made on a specific base URL obtained either from the api\_access\_point returned from the OAuth workflow or by making a call to the `GET /baseUris` endpoint. 
 
@@ -15,7 +15,7 @@ The list below shows the SOAP endpoints with their REST equivalents. Both endpoi
 ## Document Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [sendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendDocument) | /agreements, POST | 
+| [**sendDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendDocument) | /agreements, POST | 
 
 
 SenderInfo is represented through `x-api-user`. Files are specified through /transientDocuments. 
@@ -23,73 +23,73 @@ SenderInfo is represented through `x-api-user`. Files are specified through /tra
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [sendDocumentInteractive](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendDocumentInteractive) | /agreements/{agrId}/views, POST | 
+| [**sendDocumentInteractive**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendDocumentInteractive) | /agreements/{agrId}/views, POST | 
 
 From v6 onwards, the interactive views can be specified and obtained from the `POST /agreements/{agrId}/views` endpoint for the interactive behavior. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-[sendDocumentMegaSign](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendDocumentMegaSign) | /megaSigns, POST | 
+[**sendDocumentMegaSign**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendDocumentMegaSign) | /megaSigns, POST | 
 
 MegaSign allows sending the same agreement to multiple recipients and creating a separate instance of agreement for each recipient. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createLibraryDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createLibraryDocument) | /libraryDocuments, POST |
+| [**createLibraryDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createLibraryDocument) | /libraryDocuments, POST |
     
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createLibraryDocumentInteractive](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createLibraryDocumentInteractive) /libraryDocuments/{libraryDocumentId}, POST | 
+| [**createLibraryDocumentInteractive**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createLibraryDocumentInteractive) /libraryDocuments/{libraryDocumentId}, POST | 
 
 From v6 onwards, the interactive views can be specified and obtained from the `POST /agreements/{agrId}/views` endpoint for the interactive behavior. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [sendReminder](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendReminder) | agreements/{agrId}/reminders, POST |   
+| [**sendReminder**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendReminder) | agreements/{agrId}/reminders, POST |   
 
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [removeDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#removeDocument) | /agreements/{agrId}/documents, DELETE | 
+| [**removeDocument**(https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#removeDocument) | /agreements/{agrId}/documents, DELETE | 
 
 To delete the documents of agreements, use the `DELETE /agreements/{agrId}/documents` endpoint; and to remove it from Manage Page(GET /agreements), use `PUT /agreements/{agrId}/visibility` 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [cancelDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#cancelDocument) | /agreements/{agrId}/state, PUT | 
+| [**cancelDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#cancelDocument) | /agreements/{agrId}/state, PUT | 
 
 Cancel: Called by sender. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [rejectDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#rejectDocument) | /agreements/{agrId}/members/participantSets/{psId}/participants/{pId}/reject, PUT | 
+| [**rejectDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#rejectDocument) | /agreements/{agrId}/members/participantSets/{psId}/participants/{pId}/reject, PUT | 
 
 Reject: Called by current signer. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [replaceSigner](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#replaceSigner) | /agreements/{agreementId}/members/participantSets/{participantSetId}, PUT | 
+| [**replaceSigner**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#replaceSigner) | /agreements/{agreementId}/members/participantSets/{participantSetId}, PUT | 
 
 Replace: Called by sender. Both the original signer and new one can sign.
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [delegateSigning](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#delegateSigning) | /agreements/{agrId}/participantSets/{psId}/ participants/{pId}/delegatedParticipantSet, POST | 
+| [**delegateSigning**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#delegateSigning) | /agreements/{agrId}/participantSets/{psId}/ participants/{pId}/delegatedParticipantSet, POST | 
 
 Delegate: Called by signer. Both the delegator and delegatee can sign. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-|  [notifyDocumentVaulted](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#notifyDocumentVaulted) |  TBD  |
+|  [**notifyDocumentVaulted**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#notifyDocumentVaulted) |  TBD  |
 
 
 &nbsp;  
