@@ -2,9 +2,18 @@
 
 If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the REST APIs. The table below will help you migrate by providing the REST equivalents for the legacy SOAP methods.
 
-| **SOAP Endpoint** | **REST Endpoint** | **Description** |
-| --- | --- | --- |
-| `getBaseUris` | /baseUris, GET | Base URIs: API calls starting v5 of REST API must be made on a specific base URL obtained either from the api\_access\_point returned from the OAuth workflow or by making a call to the `GET /baseUris` endpoint. |
+## Setup
+
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getBaseUris` | /baseUris, GET  |
+
+
+
+Base URIs: API calls starting v5 of REST API must be made on a specific base URL obtained either from the api\_access\_point returned from the OAuth workflow or by making a call to the `GET /baseUris` endpoint. 
+
+
+
 | `sendDocument` | /agreements, POST | SenderInfo is represented through `x-api-user`. Files are specified through /transientDocuments. |
 | `sendDocumentInteractive` | /agreements/{agrId}/views, POST | From v6 onwards, the interactive views can be specified and obtained from the `POST /agreements/{agrId}/views` endpoint for the interactive behavior. |
 | `sendDocumentMegaSign` | /megaSigns, POST | MegaSign allows sending the same agreement to multiple recipients and creating a separate instance of agreement for each recipient. |
