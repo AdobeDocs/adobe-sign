@@ -305,7 +305,7 @@ Specify the new `groupId` in the request.
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**personalizeEmbeddedWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeEmbeddedWidget) | TBD |  
+| [**personalizeEmbeddedWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeEmbeddedWidget) | [/widgets, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)  |  
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -320,7 +320,7 @@ Specify the new `groupId` in the request.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**personalizeUrlWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeUrlWidget) | TBD |   
+| [**personalizeUrlWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeUrlWidget) | [/widgets, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)  |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
