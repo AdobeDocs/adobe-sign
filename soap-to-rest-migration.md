@@ -330,7 +330,8 @@ Use status value as `ACTIVE`.
 ## Test Methods: 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**testPing**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testPing)   |  TBD   |
+| [**testPing**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testPing)   |  [/baseURIs, GET
+](https://secure.na1.echosign.com/public/docs/restapi/v6#!/baseUris/getBaseUris)   |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -341,9 +342,17 @@ Use status value as `ACTIVE`.
 &nbsp; 
 ## Deprecated Methods:
 ### Access Methods:
-* issueAccessToken                 
+* issueAccessToken 
+
+&nbsp; 
+### Document Methods:
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument) | /agreements/{agrId}/views, POST
+ |
+
+&nbsp; 
 ### Status Methods:
-&nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [**getDocumentUrlByVersion**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentUrlByVersion)    |  [/agreement/{agreementID}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) |
@@ -356,11 +365,6 @@ Use status value as `ACTIVE`.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentsForUser) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) |
-
-&nbsp;  
-| **SOAP Endpoint** | **REST Endpoint**  |
-| :---    |  :----   |
 | [getImagesByVersion](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getImagesByVersion) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) |
 
 &nbsp;  
@@ -368,8 +372,8 @@ Use status value as `ACTIVE`.
 | :---    |  :----   |
 | [getLatestDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocument) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments)
  |
-
-&nbsp;  
+ 
+&nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | 
@@ -380,29 +384,21 @@ Use status value as `ACTIVE`.
 | :---    |  :----   |
 | [getLatestImages](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestImages) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) \|\| [/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls)
  |
+ 
+&nbsp;  
+### User Methods:
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getDocumentsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentsForUser) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| SOAP | REST |
+| 
+[createUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createUser) | None |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| SOAP | REST |
-
-&nbsp;  
-| **SOAP Endpoint** | **REST Endpoint**  |
-| :---    |  :----   |
-| SOAP | REST |
-
-[initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument)
-
-
-
-
-[createUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createUser)
-[createAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createAccount)
-
-
-
+| 
+[createAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createAccount) | None |
