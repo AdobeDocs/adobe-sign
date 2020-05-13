@@ -3,8 +3,7 @@
 If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the v6 REST APIs. 
 The list below shows the SOAP endpoints with their REST equivalents. Both endpoints link directly to the full method descripotion.
 
-## General-purpose Methods
-
+## General-purpose Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [getBaseUris](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getBaseUris) | /baseUris, GET  |
@@ -13,8 +12,7 @@ The list below shows the SOAP endpoints with their REST equivalents. Both endpoi
 
 &nbsp;  
 &nbsp; 
-## Document Methods
-
+## Document Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [sendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendDocument) | /agreements, POST | 
@@ -96,8 +94,7 @@ Delegate: Called by signer. Both the delegator and delegatee can sign.
 
 &nbsp;  
 &nbsp; 
-## Status Methods
-
+## Status Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [getDocumentInfo](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfo) | /agreements/{agrId}, GET | 
@@ -172,8 +169,7 @@ Returns a CSV file stream.
 
 &nbsp;  
 &nbsp; 
-## User Methods
-
+## User Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [verifyUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#verifyUser) | TBD| 
@@ -267,8 +263,7 @@ Specify the new `groupId` in the request.
 
 &nbsp; 
 &nbsp; 
-## Web Form Methods
-  
+## Web Form Methods:  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `createEmbeddedWidget` | /widgets, POST |   
@@ -294,8 +289,7 @@ Use status value as `ACTIVE`.
 
 &nbsp;  
 &nbsp; 
-## Status Methods
- 
+## Test Methods: 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `testPing`   |  TBD   |
