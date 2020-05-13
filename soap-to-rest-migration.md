@@ -3,8 +3,7 @@
 If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the v6 REST APIs. 
 The list below shows the SOAP endpoints with their REST equivalents. Both endpoints link directly to the full method descripotion.
 
-## General-purpose Methods
-
+## General-purpose Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [getBaseUris](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getBaseUris) | /baseUris, GET  |
@@ -188,79 +187,97 @@ Returns a CSV file stream.
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getEmbeddedView` | /agreements/{agrId}/views, POST | 
+| [getEmbeddedView](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getEmbeddedView) | /agreements/{agrId}/views, POST | 
 
 Use the name = DOCUMENT to get the embedded view of an agreement. 
+
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getMyDocuments` | /agreements, GET |   
+| [getUserDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserDocuments) | /agreements, GET | 
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getUserDocuments` | /agreements, GET | 
+| [getMyDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyDocuments) | /agreements, GET |   
 
 Use `x-api-user` for specifying the user whose agreements are to be retrieved. 
-&nbsp;  
-&nbsp;  
-| **SOAP Endpoint** | **REST Endpoint**  |
-| :---    |  :----   |
-| `getMyLibraryDocuments` | /libraryDocuments, GET |   
-  
+
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getLibraryDocumentsForUser` | /libraryDocuments, GET | 
+| [getLibraryDocumentsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getLibraryDocumentsForUser) | /libraryDocuments, GET | 
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getMyLibraryDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyLibraryDocuments) | /libraryDocuments, GET |   
 
 Use `x-api-user` for specifying the user whose library documents are to be retrieved. 
-&nbsp;  
+
+&nbsp; 
+&nbsp; 
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getWidgetsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getWidgetsForUser) | /widgets, GET | 
+
+ 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getMyWidgets` | /widgets, GET |   
-  
-&nbsp;  
-| **SOAP Endpoint** | **REST Endpoint**  |
-| :---    |  :----   |
-| `getWidgetsForUser` | /widgets, GET | 
+| [getMyWidgets](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyWidgets) | /widgets, GET |   
 
 Use `x-api-user` for specifying the user whose widgets are to be retrieved. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getMegaSignDocument` | /megaSigns/{megaSignId}/agreements, GET | 
+| [getMegaSignDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMegaSignDocument) | /megaSigns/{megaSignId}/agreements, GET | 
 
 Get all child agreement IDs of the parent MegaSign. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getUsersInAccount` | /users, GET |   
+| [getUsersInAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInAccount) | /users, GET |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getGroupsInAccount` | /groups, GET |   
+| [createGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createGroup) | TBD |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getUsersInGroups` | /groups/{groupId}/users, GET |   
+| [deleteGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#deleteGroup) | TBD |   
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [renameGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#renameGroup) | TBD |   
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getGroupsInAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getGroupsInAccount) | /groups, GET |   
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getUsersInGroups](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInGroup) | /groups/{groupId}/users, GET |   
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `moveUsersToGroup` | /users/{userId}/groups, PUT | 
+| [moveUsersToGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#moveUsersToGroup) | /users/{userId}/groups, PUT | 
 
 Specify the new `groupId` in the request. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getUserInfo` | /users/{userId}, GET |   
+| [getUserInfo](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserInfo) | /users/{userId}, GET |   
 
 &nbsp; 
 &nbsp; 
