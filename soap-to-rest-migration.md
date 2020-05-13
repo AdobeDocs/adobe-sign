@@ -10,6 +10,7 @@ The list below shows the SOAP endpoints with their REST equivalents. Both endpoi
 * [Test Methods](#test-methods)
 * [Deprecated Methods](#deprecated-methods-from-legacy-soap-versions)
 
+&nbsp;
 ## General-purpose Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
