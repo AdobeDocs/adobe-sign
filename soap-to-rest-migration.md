@@ -284,24 +284,43 @@ Specify the new `groupId` in the request.
 ## Web Form Methods:  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `createEmbeddedWidget` | /widgets, POST |   
-  
-&nbsp;  
+| [createEmbeddedWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createEmbeddedWidget) | /widgets, POST |   
+&nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `createUrlWidget` | /widgets, POST |   
+| [createPersonalEmbeddedWidget)]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | TBD |   
+ 
+&nbsp; 
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [personalizeEmbeddedWidget]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeEmbeddedWidget) | TBD |  
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `disableWidget` | /widgets/{widgetId}/state, PUT | 
+| [createUrlWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createUrlWidget) | /widgets, POST |   
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [createPersonalUrlWidget)]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) | TBD | 
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [personalizeUrlWidget]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeUrlWidget) | TBD |   
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [disableWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#disableWidget) | /widgets/{widgetId}/state, PUT | 
 
 Use status value as `INACTIVE`. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `enableWidget` | /widgets/{widgetId}/state, PUT | 
+| [enableWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#enableWidget) | /widgets/{widgetId}/state, PUT | 
 
 Use status value as `ACTIVE`. 
 
@@ -310,10 +329,10 @@ Use status value as `ACTIVE`.
 ## Test Methods: 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `testPing`   |  TBD   |
+| [testPing](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testPing)   |  TBD   |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `testEchoFile`    |  TBD   |
+| [testEchoFile](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testEchoFile)    |  TBD   |
 
