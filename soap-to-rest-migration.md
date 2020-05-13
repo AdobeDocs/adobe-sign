@@ -49,7 +49,7 @@ From v6 onwards, the interactive views can be specified and obtained from the `P
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**sendReminder**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendReminder) | agreements/{agrId}/reminders, POST |   
+| [**sendReminder**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#sendReminder) | /agreements/{agrId}/reminders, POST |   
 
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
