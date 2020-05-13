@@ -89,7 +89,7 @@ Delegate: Called by signer. Both the delegator and delegatee can sign.
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-|  [**notifyDocumentVaulted**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#notifyDocumentVaulted) |  TBD  |
+|  [**notifyDocumentVaulted**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#notifyDocumentVaulted) |  Expected in the June 2020 release  |
 
 
 &nbsp;  
