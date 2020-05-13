@@ -26,7 +26,6 @@ SenderInfo is represented through `x-api-user`. Files are specified through /tra
 | `sendDocumentInteractive` | /agreements/{agrId}/views, POST | 
 
 From v6 onwards, the interactive views can be specified and obtained from the `POST /agreements/{agrId}/views` endpoint for the interactive behavior. 
-
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
