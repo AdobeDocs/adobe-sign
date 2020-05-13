@@ -18,8 +18,8 @@ Base URIs: API calls starting v5 of REST API must be made on a specific base URL
 
 
 SenderInfo is represented through `x-api-user`. Files are specified through /transientDocuments. 
-&nbsp; 
-&nbsp; 
+&nbsp;  
+&nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `sendDocumentInteractive` | /agreements/{agrId}/views, POST | 
