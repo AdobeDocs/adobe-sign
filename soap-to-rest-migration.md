@@ -378,7 +378,7 @@ Use status value as `ACTIVE`.
 ### Document Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument) | [/agreements/{agrId}/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/createAgreementView) |
+| [**initiateInteractiveSendDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument) | [/agreements/{agrId}/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/createAgreementView) |
 
 &nbsp; 
 ### Status Methods:
@@ -394,30 +394,30 @@ Use status value as `ACTIVE`.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getImagesByVersion](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getImagesByVersion) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) |
+| [**getImagesByVersion**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getImagesByVersion) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getLatestDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocument) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments) |
+| [**getLatestDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocument) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments) |
  
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getLatestDocumentUrl](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocumentUrl) | [/agreements/{agrId}/documents/{docId}/url, GET]()<br/>[/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) |
+| [**getLatestDocumentUrl**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocumentUrl) | [/agreements/{agrId}/documents/{docId}/url, GET]()<br/>[/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getLatestImages](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestImages) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls)<br/>[/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls) |
+| [**getLatestImages**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestImages) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls)<br/>[/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls) |
  
 &nbsp;  
 ### User Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentsForUser) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) |
+| [**getDocumentsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentsForUser) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createAccount) | None |
+| [**createAccount**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createAccount) | None |
