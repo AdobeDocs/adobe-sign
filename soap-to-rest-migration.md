@@ -330,8 +330,7 @@ Use status value as `ACTIVE`.
 ## Test Methods: 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**testPing**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testPing)   |  [/baseURIs, GET
-](https://secure.na1.echosign.com/public/docs/restapi/v6#!/baseUris/getBaseUris)   |
+| [**testPing**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testPing)   |  [/baseURIs, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/baseUris/getBaseUris)   |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -342,7 +341,7 @@ Use status value as `ACTIVE`.
 &nbsp; 
 ## Deprecated Methods from legacy SOAP versions:
 ### Access Methods:
-* issueAccessToken - OAuth has replaced access tokens
+* issueAccessToken - [OAuth has replaced access tokens](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md).
 
 &nbsp; 
 ### Document Methods:
