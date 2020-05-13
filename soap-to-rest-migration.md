@@ -7,7 +7,7 @@ The list below shows the SOAP endpoints with their REST equivalents. Both endpoi
 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getBaseUris` | /baseUris, GET  |
+| [getBaseUris](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getBaseUris) | /baseUris, GET  |
 
 **Note:** Base URIs: API calls starting v5 of REST API must be made on a specific base URL obtained either from the api\_access\_point returned from the OAuth workflow or by making a call to the `GET /baseUris` endpoint. 
 
