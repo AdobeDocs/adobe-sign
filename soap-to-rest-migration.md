@@ -337,3 +337,9 @@ Use status value as `ACTIVE`.
 | :---    |  :----   |
 | [**testEchoFile**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testEchoFile)    |  TBD   |
 
+&nbsp;  
+&nbsp; 
+## Deprecated Methods:
+### Access Methods:
+* issueAccessToken                                                                      
+
