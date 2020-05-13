@@ -118,7 +118,7 @@ REST returns a list of document IDs that can be provided to the following endpoi
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getDocumentUrls**(https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | [/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) | 
+| [**getDocumentUrls**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | [/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) | 
 
 Retrieve the URL of the **combined document**. 
 &nbsp;  
@@ -284,7 +284,8 @@ Specify the new `groupId` in the request.
 ## Web Form Methods:  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createEmbeddedWidget) | /widgets, POST |   
+| [**createEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createEmbeddedWidget) | /widgets, POST |
+
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
