@@ -378,7 +378,7 @@ Use status value as `ACTIVE`.
 ### Document Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument) | /agreements/{agrId}/views, POST |
+| [initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument) | [/agreements/{agrId}/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/createAgreementView) |
 
 &nbsp; 
 ### Status Methods:
