@@ -97,97 +97,97 @@ Delegate: Called by signer. Both the delegator and delegatee can sign.
 ## Status Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentInfo](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfo) | [/agreements/{agrId}, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo) | 
+| [**getDocumentInfo**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfo) | [/agreements/{agrId}, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo) | 
 
 In SOAP API, `getDocumentInfo`, `getDocuments`, `getAuditTrail` etc. work on `documentKeys`, which can be an ID for an agreement, widget, or library document. The REST API demarcates these as separate resources (cleaner design and strongly typed) and hence, based on the kind of resource you are working on, there is a corresponding /libraryDocuments, /widgets to these. Example: `/widgets/{widgetId}, GET` will getDocumentInfo for `widgetId`, and similarly for documents, audit trail, etc. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentInfosByExternalId](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfosByExternalId) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) query = externalId | 
+| [**getDocumentInfosByExternalId**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfosByExternalId) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) query = externalId | 
 
 `externalId` can be used to map your internal IDs to eSign IDs. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocuments) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments) | 
+| [**getDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocuments) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments) | 
 
 REST returns a list of document IDs that can be provided to the following endpoint to get a document stream. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | [/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) | 
+| [**getDocumentUrls**(https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | [/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) | 
 
 Retrieve the URL of the **combined document**. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | /agreements/{agrId}/documents/{docId}/url, GET  **Not a v6 REST API** | 
+| [**getDocumentUrls**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | /agreements/{agrId}/documents/{docId}/url, GET  **Not a v6 REST API** | 
 
 Retrieve the URL of an **individual document**. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentImageUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentImageUrls) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) | 
+| [**getDocumentImageUrls**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentImageUrls) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) | 
 
 Retrieve the image URLs of **all visible pages** of an agreement. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentImageUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentImageUrls)  | [/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls) | 
+| [**getDocumentImageUrls**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentImageUrls)  | [/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls) | 
 
 Retrieve image URLs of a specified documentID. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getSupportingDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getSupportingDocuments) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments) | 
+| [**getSupportingDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getSupportingDocuments) | [/agreements/{agrId}/documents, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocuments) | 
 
 Can also specify the content format. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getFormData](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getFormData) | [/agreements/{agrId}/formData, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getFormData) | 
+| [**getFormData**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getFormData) | [/agreements/{agrId}/formData, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getFormData) | 
 
 Returns a CSV file stream. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getAuditTrail](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getAuditTrail) | [/agreements/{agrId}/auditTrail, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAuditTrail) |   
+| [**getAuditTrail**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getAuditTrail) | [/agreements/{agrId}/auditTrail, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAuditTrail) |   
     
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getSigningUrl](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getSigningUrl) | [/agreements/{agrId}/signingUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getSigningUrl) |   
+| [**getSigningUrl**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getSigningUrl) | [/agreements/{agrId}/signingUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getSigningUrl) |   
 
 &nbsp;  
 &nbsp; 
 ## User Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [verifyUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#verifyUser) | TBD| 
+| [**verifyUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#verifyUser) | TBD| 
 
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [searchUserDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#searchUserDocuments) | TBD | 
+| [**searchUserDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#searchUserDocuments) | TBD | 
 
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getDocumentEventsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentEventsForUser) | TBD | 
+| [**getDocumentEventsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentEventsForUser) | TBD | 
 
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getEmbeddedView](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getEmbeddedView) | /agreements/{agrId}/views, POST | 
+| [**getEmbeddedView**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getEmbeddedView) | /agreements/{agrId}/views, POST | 
 
 Use the name = DOCUMENT to get the embedded view of an agreement. 
 
@@ -195,24 +195,24 @@ Use the name = DOCUMENT to get the embedded view of an agreement.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getUserDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserDocuments) | /agreements, GET | 
+| [**getUserDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserDocuments) | /agreements, GET | 
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getMyDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyDocuments) | /agreements, GET |   
+| [**getMyDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyDocuments) | /agreements, GET |   
 
 Use `x-api-user` for specifying the user whose agreements are to be retrieved. 
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getLibraryDocumentsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getLibraryDocumentsForUser) | /libraryDocuments, GET | 
+| [**getLibraryDocumentsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getLibraryDocumentsForUser) | /libraryDocuments, GET | 
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getMyLibraryDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyLibraryDocuments) | /libraryDocuments, GET |   
+| [**getMyLibraryDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyLibraryDocuments) | /libraryDocuments, GET |   
 
 Use `x-api-user` for specifying the user whose library documents are to be retrieved. 
 
@@ -220,107 +220,107 @@ Use `x-api-user` for specifying the user whose library documents are to be retri
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getWidgetsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getWidgetsForUser) | /widgets, GET | 
+| [**getWidgetsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getWidgetsForUser) | /widgets, GET | 
 
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getMyWidgets](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyWidgets) | /widgets, GET |   
+| [**getMyWidgets**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyWidgets) | /widgets, GET |   
 
 Use `x-api-user` for specifying the user whose widgets are to be retrieved. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getMegaSignDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMegaSignDocument) | /megaSigns/{megaSignId}/agreements, GET | 
+| [**getMegaSignDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMegaSignDocument) | /megaSigns/{megaSignId}/agreements, GET | 
 
 Get all child agreement IDs of the parent MegaSign. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getUsersInAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInAccount) | /users, GET |   
+| [**getUsersInAccount**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInAccount) | /users, GET |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createGroup) | TBD |   
+| [**createGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createGroup) | TBD |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [deleteGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#deleteGroup) | TBD |   
+| [**deleteGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#deleteGroup) | TBD |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [renameGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#renameGroup) | TBD |   
+| [**renameGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#renameGroup) | TBD |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getGroupsInAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getGroupsInAccount) | /groups, GET |   
+| [**getGroupsInAccount**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getGroupsInAccount) | /groups, GET |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getUsersInGroups](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInGroup) | /groups/{groupId}/users, GET |   
+| [**getUsersInGroups**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInGroup) | /groups/{groupId}/users, GET |   
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [moveUsersToGroup](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#moveUsersToGroup) | /users/{userId}/groups, PUT | 
+| [**moveUsersToGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#moveUsersToGroup) | /users/{userId}/groups, PUT | 
 
 Specify the new `groupId` in the request. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getUserInfo](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserInfo) | /users/{userId}, GET |   
+| [**getUserInfo**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserInfo) | /users/{userId}, GET |   
 
 &nbsp; 
 &nbsp; 
 ## Web Form Methods:  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createEmbeddedWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createEmbeddedWidget) | /widgets, POST |   
+| [**createEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createEmbeddedWidget) | /widgets, POST |   
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createPersonalEmbeddedWidget)]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | TBD |   
+| [**createPersonalEmbeddedWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | TBD |   
  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [personalizeEmbeddedWidget]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeEmbeddedWidget) | TBD |  
+| [**personalizeEmbeddedWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeEmbeddedWidget) | TBD |  
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createUrlWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createUrlWidget) | /widgets, POST |   
+| [**createUrlWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createUrlWidget) | /widgets, POST |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [createPersonalUrlWidget)]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) | TBD | 
+| [**createPersonalUrlWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) | TBD | 
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [personalizeUrlWidget]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeUrlWidget) | TBD |   
+| [**personalizeUrlWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#personalizeUrlWidget) | TBD |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [disableWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#disableWidget) | /widgets/{widgetId}/state, PUT | 
+| [**disableWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#disableWidget) | /widgets/{widgetId}/state, PUT | 
 
 Use status value as `INACTIVE`. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [enableWidget](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#enableWidget) | /widgets/{widgetId}/state, PUT | 
+| [**enableWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#enableWidget) | /widgets/{widgetId}/state, PUT | 
 
 Use status value as `ACTIVE`. 
 
@@ -329,10 +329,10 @@ Use status value as `ACTIVE`.
 ## Test Methods: 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [testPing](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testPing)   |  TBD   |
+| [**testPing**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testPing)   |  TBD   |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [testEchoFile](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testEchoFile)    |  TBD   |
+| [**testEchoFile**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#testEchoFile)    |  TBD   |
 
