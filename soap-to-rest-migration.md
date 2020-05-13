@@ -51,7 +51,6 @@ From v6 onwards, the interactive views can be specified and obtained from the `P
 | :---    |  :----   |
 | `sendReminder` | agreements/{agrId}/reminders, POST |   
 
-&nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
