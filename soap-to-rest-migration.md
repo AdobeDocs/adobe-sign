@@ -1,6 +1,7 @@
 # Migrating From SOAP
 
-If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the REST APIs. The table below will help you migrate by providing the REST equivalents for the legacy SOAP methods.
+If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the v6 REST APIs. 
+The list below shows the SOAP endpoints with their REST equivalents. Both endpoints link directly to the full method descripotion.
 
 ## General-purpose Methods
 
@@ -116,27 +117,173 @@ REST returns a list of document IDs that can be provided to the following endpoi
 | `getDocumentUrls` | /agreements/{agrId}/combinedDocument/url, GET | 
 
 Retrieve the URL of the combined document. 
-| `getDocumentUrls` | /agreements/{agrId}/documents/{docId}/url, GET | Retrieve the URL of an individual document. |
-| `getDocumentImageUrls` | /agreements/{agrId}/documents/imageUrls, GET | Retrieve the image URLs of all the visible pages of an agreement. |
-| `getDocumentImageUrls` | /agreements/{agrId}/documents/{docId}/imageUrls, GET | Retrieve image URLs of all the visible pages of an agreement&rsquo;s document. |
-| `getSupportingDocuments` | /agreements/{agrId}/documents, GET | Can also specify the content format. |
-| `getFormData` | /agreements/{agrId}/formData, GET | Returns a CSV file stream. |
-| `getAuditTrail` | /agreements/{agrId}/auditTrail, GET |   |
-| `getSigningUrl` | /agreements/{agrId}/signingUrls, GET |   |
-| `getEmbeddedView` | /agreements/{agrId}/views, POST | Use the name = DOCUMENT to get the embedded view of an agreement. |
-| `getMyDocuments` | /agreements, GET |   |
-| `getUserDocuments` | /agreements, GET | Use `x-api-user` for specifying the user whose agreements are to be retrieved. |
-| `getMyLibraryDocuments` | /libraryDocuments, GET |   |
-| `getLibraryDocumentsForUser` | /libraryDocuments, GET | Use `x-api-user` for specifying the user whose library documents are to be retrieved. |
-| `getMyWidgets` | /widgets, GET |   |
-| `getWidgetsForUser` | /widgets, GET | Use `x-api-user` for specifying the user whose widgets are to be retrieved. |
-| `getMegaSignDocument` | /megaSigns/{megaSignId}/agreements, GET | Get all child agreement IDs of the parent MegaSign. |
-| `getUsersInAccount` | /users, GET |   |
-| `getGroupsInAccount` | /groups, GET |   |
-| `getUsersInGroups` | /groups/{groupId}/users, GET |   |
-| `moveUsersToGroup` | /users/{userId}/groups, PUT | Specify the new `groupId` in the request. |
-| `getUserInfo` | /users/{userId}, GET |   |
-| `createEmbeddedWidget` | /widgets, POST |   |
-| `createUrlWidget` | /widgets, POST |   |
-| `disableWidget` | /widgets/{widgetId}/state, PUT | Use status value as `INACTIVE`. |
-| `enableWidget` | /widgets/{widgetId}/state, PUT | Use status value as `ACTIVE`. |
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getDocumentUrls` | /agreements/{agrId}/documents/{docId}/url, GET | 
+
+Retrieve the URL of an individual document. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getDocumentImageUrls` | /agreements/{agrId}/documents/imageUrls, GET | 
+
+Retrieve the image URLs of all the visible pages of an agreement. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getDocumentImageUrls` | /agreements/{agrId}/documents/{docId}/imageUrls, GET | 
+
+Retrieve image URLs of all the visible pages of an agreement&rsquo;s document. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getSupportingDocuments` | /agreements/{agrId}/documents, GET | 
+
+Can also specify the content format. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getFormData` | /agreements/{agrId}/formData, GET | 
+
+Returns a CSV file stream. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getAuditTrail` | /agreements/{agrId}/auditTrail, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getSigningUrl` | /agreements/{agrId}/signingUrls, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getEmbeddedView` | /agreements/{agrId}/views, POST | 
+
+Use the name = DOCUMENT to get the embedded view of an agreement. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getMyDocuments` | /agreements, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getUserDocuments` | /agreements, GET | 
+
+Use `x-api-user` for specifying the user whose agreements are to be retrieved. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getMyLibraryDocuments` | /libraryDocuments, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getLibraryDocumentsForUser` | /libraryDocuments, GET | 
+
+Use `x-api-user` for specifying the user whose library documents are to be retrieved. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getMyWidgets` | /widgets, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getWidgetsForUser` | /widgets, GET | 
+
+Use `x-api-user` for specifying the user whose widgets are to be retrieved. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getMegaSignDocument` | /megaSigns/{megaSignId}/agreements, GET | 
+
+Get all child agreement IDs of the parent MegaSign. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getUsersInAccount` | /users, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getGroupsInAccount` | /groups, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getUsersInGroups` | /groups/{groupId}/users, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `moveUsersToGroup` | /users/{userId}/groups, PUT | 
+
+Specify the new `groupId` in the request. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `getUserInfo` | /users/{userId}, GET |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `createEmbeddedWidget` | /widgets, POST |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `createUrlWidget` | /widgets, POST |   
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `disableWidget` | /widgets/{widgetId}/state, PUT | 
+
+Use status value as `INACTIVE`. 
+
+&nbsp;  
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `enableWidget` | /widgets/{widgetId}/state, PUT | 
+
+Use status value as `ACTIVE`. 
