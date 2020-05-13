@@ -395,7 +395,3 @@ Use status value as `ACTIVE`.
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [createAccount](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createAccount) | None |
-
-<p style='color:red'>This is some red text.</p>
-
-
