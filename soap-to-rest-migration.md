@@ -42,7 +42,7 @@ MegaSign allows sending the same agreement to multiple recipients and creating a
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createLibraryDocumentInteractive**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createLibraryDocumentInteractive) /libraryDocuments/{libraryDocumentId}, POST | 
+| [**createLibraryDocumentInteractive**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createLibraryDocumentInteractive) |  /libraryDocuments/{libraryDocumentId}, POST | 
 
 From v6 onwards, the interactive views can be specified and obtained from the `POST /agreements/{agrId}/views` endpoint for the interactive behavior. 
 &nbsp;  
@@ -54,7 +54,7 @@ From v6 onwards, the interactive views can be specified and obtained from the `P
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**removeDocument**(https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#removeDocument) | /agreements/{agrId}/documents, DELETE | 
+| [**removeDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#removeDocument) | /agreements/{agrId}/documents, DELETE | 
 
 To delete the documents of agreements, use the `DELETE /agreements/{agrId}/documents` endpoint; and to remove it from Manage Page(GET /agreements), use `PUT /agreements/{agrId}/visibility` 
 &nbsp;  
