@@ -340,16 +340,15 @@ Use status value as `ACTIVE`.
 
 &nbsp;  
 &nbsp; 
-## Deprecated Methods:
+## Deprecated Methods from legacy SOAP versions:
 ### Access Methods:
-* issueAccessToken 
+* issueAccessToken - OAuth has replaced access tokens
 
 &nbsp; 
 ### Document Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument) | /agreements/{agrId}/views, POST
- |
+| [initiateInteractiveSendDocument](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#initiateInteractiveSendDocument) | /agreements/{agrId}/views, POST |
 
 &nbsp; 
 ### Status Methods:
