@@ -11,6 +11,8 @@ The list below shows the SOAP endpoints with their REST equivalents. Both endpoi
 
 **Note:** Base URIs: API calls starting v5 of REST API must be made on a specific base URL obtained either from the api\_access\_point returned from the OAuth workflow or by making a call to the `GET /baseUris` endpoint. 
 
+&nbsp;  
+&nbsp; 
 ## Document Methods
 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -85,6 +87,12 @@ Replace: Called by sender. Both the original signer and new one can sign.
 | `delegateSigning` | /agreements/{agrId}/participantSets/{psId}/ participants/{pId}/delegatedParticipantSet, POST | 
 
 Delegate: Called by signer. Both the delegator and delegatee can sign. 
+&nbsp;  
+&nbsp; 
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+|  `notifyDocumentVaulted` |  TBD  |
+
 
 &nbsp;  
 &nbsp; 
@@ -115,28 +123,28 @@ REST returns a list of document IDs that can be provided to the following endpoi
 | :---    |  :----   |
 | `getDocumentUrls` | /agreements/{agrId}/combinedDocument/url, GET | 
 
-Retrieve the URL of the combined document. 
+Retrieve the URL of the **combined document**. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getDocumentUrls` | /agreements/{agrId}/documents/{docId}/url, GET | 
 
-Retrieve the URL of an individual document. 
+Retrieve the URL of an **individual document**. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getDocumentImageUrls` | /agreements/{agrId}/documents/imageUrls, GET | 
 
-Retrieve the image URLs of all the visible pages of an agreement. 
+Retrieve the image URLs of **all visible pages** of an agreement. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getDocumentImageUrls` | /agreements/{agrId}/documents/{docId}/imageUrls, GET | 
 
-Retrieve image URLs of all the visible pages of an agreement&rsquo;s document. 
+Retrieve image URLs of a specified documentID. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -156,15 +164,16 @@ Returns a CSV file stream.
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getAuditTrail` | /agreements/{agrId}/auditTrail, GET |   
-
-&nbsp;  
+    
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getSigningUrl` | /agreements/{agrId}/signingUrls, GET |   
 
 &nbsp;  
-&nbsp;  
+&nbsp; 
+## User Methods
+
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getEmbeddedView` | /agreements/{agrId}/views, POST | 
@@ -247,8 +256,11 @@ Specify the new `groupId` in the request.
 | :---    |  :----   |
 | `getUserInfo` | /users/{userId}, GET |   
 
+
 &nbsp;  
-&nbsp;  
+&nbsp; 
+## Web Form Methods
+  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `createEmbeddedWidget` | /widgets, POST |   
@@ -274,3 +286,17 @@ Use status value as `INACTIVE`.
 | `enableWidget` | /widgets/{widgetId}/state, PUT | 
 
 Use status value as `ACTIVE`. 
+
+&nbsp;  
+&nbsp; 
+## Status Methods
+ 
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `testPing`   |  TBD   |
+
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| `testEchoFile`    |  TBD   |
+
