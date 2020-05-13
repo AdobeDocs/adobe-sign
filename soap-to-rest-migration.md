@@ -375,12 +375,12 @@ Use status value as `ACTIVE`.
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getLatestDocumentUrl](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocumentUrl) | [/agreements/{agrId}/documents/{docId}/url, GET]() \|\| [/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) |
+| [getLatestDocumentUrl](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestDocumentUrl) | [/agreements/{agrId}/documents/{docId}/url, GET]()<br/>[/agreements/{agrId}/combinedDocument/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocumentUrl) |
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [getLatestImages](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestImages) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls) \|\| [/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls) |
+| [getLatestImages](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getLatestImages) | [/agreements/{agrId}/documents/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAllDocumentsImageUrls)<br/>[/agreements/{agrId}/documents/{docId}/imageUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getDocumentImageUrls) |
  
 &nbsp;  
 ### User Methods:
