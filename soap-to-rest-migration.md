@@ -167,9 +167,18 @@ Returns a CSV file stream.
 | :---    |  :----   |
 | [**getSigningUrl**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getSigningUrl) | [/agreements/{agrId}/signingUrls, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getSigningUrl) |   
 
+
+
+
+
 &nbsp;  
 &nbsp; 
 ## User Methods:
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [**createUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#createUser) | **v5 REST Only** [/users, POST](https://secure.na1.echosign.com/public/docs/restapi/v5#!/users/createUser) |   
+ 
+&nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [**verifyUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#verifyUser) | [/users/{userId}, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/users/getUserDetail)| 
@@ -247,17 +256,17 @@ Get all child agreement IDs of the parent MegaSign.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createGroup) | TBD |   
+| [**createGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createGroup) | **v5 REST Only** [/groups, POST](https://secure.na1.echosign.com/public/docs/restapi/v5#!/groups/createGroup) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**deleteGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#deleteGroup) | TBD |   
+| [**deleteGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#deleteGroup) | **v5 REST Only** [/groups/[groupId, DELETE](https://secure.na1.echosign.com/public/docs/restapi/v5#!/groups/deleteGroup) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**renameGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#renameGroup) | TBD |   
+| [**renameGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#renameGroup) | **v5 REST Only** [/groups/{groupId}, PUT](https://secure.na1.echosign.com/public/docs/restapi/v5#!/groups/modifyGroup) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -291,7 +300,7 @@ Specify the new `groupId` in the request.
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createPersonalEmbeddedWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | TBD |   
+| [**createPersonalEmbeddedWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | **v5 REST Only** [/widgets/{widgetId}/personalize, PUT](https://secure.na1.echosign.com/public/docs/restapi/v5#!/widgets/updateWidgetPersonalize) |   
  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -306,7 +315,7 @@ Specify the new `groupId` in the request.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createPersonalUrlWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) | TBD | 
+| [**createPersonalUrlWidget**]( https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) |  **v5 REST Only** [/widgets/{widgetId}/personalize, PUT](https://secure.na1.echosign.com/public/docs/restapi/v5#!/widgets/updateWidgetPersonalize) | 
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -329,6 +338,18 @@ Use status value as `ACTIVE`.
 
 &nbsp;  
 &nbsp; 
+
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [**personalizeEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#personalizeEmbeddedWidget) | [/widgets, POST (https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)
+ 
+&nbsp;  
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [**personalizeUrlWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#personalizeUrlWidget) | [/widgets, POST (https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)|
+ 
+&nbsp;  
+&nbsp;
 ## Test Methods: 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
