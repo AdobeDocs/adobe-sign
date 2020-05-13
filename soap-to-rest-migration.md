@@ -269,7 +269,6 @@ Specify the new `groupId` in the request.
 | `disableWidget` | /widgets/{widgetId}/state, PUT | 
 
 Use status value as `INACTIVE`. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
