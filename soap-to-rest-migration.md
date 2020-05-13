@@ -349,12 +349,12 @@ Use status value as `ACTIVE`.
 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**personalizeEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#personalizeEmbeddedWidget) | [/widgets, POST] (https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)
+| [**personalizeEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#personalizeEmbeddedWidget) | [/widgets, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**personalizeUrlWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#personalizeUrlWidget) | [/widgets, POST] (https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)|
+| [**personalizeUrlWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService19#personalizeUrlWidget) | [/widgets, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)|
  
 &nbsp;  
 &nbsp;
