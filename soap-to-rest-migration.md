@@ -38,7 +38,7 @@ MegaSign allows sending the same agreement to multiple recipients and creating a
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `createLibraryDocument` | /libraryDocuments, POST |
-&nbsp;  
+    
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
