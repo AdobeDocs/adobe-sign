@@ -389,7 +389,7 @@ Use status value as `ACTIVE`.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getDocumentByVersion **](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentByVersion)    |  [/agreements/{agreementId}/combinedDocument, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocument)  | 
+| [**getDocumentByVersion**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentByVersion)    |  [/agreements/{agreementId}/combinedDocument, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocument)  | 
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
