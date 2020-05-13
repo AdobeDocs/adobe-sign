@@ -100,7 +100,6 @@ Delegate: Called by signer. Both the delegator and delegatee can sign.
 | `getDocumentInfo` | /agreements/{agrId}, GET | 
 
 In SOAP API, `getDocumentInfo`, `getDocuments`, `getAuditTrail` etc. work on `documentKeys`, which can be an ID for an agreement, widget, or library document. The REST API demarcates these as separate resources (cleaner design and strongly typed) and hence, based on the kind of resource you are working on, there is a corresponding /libraryDocuments, /widgets to these. Example: `/widgets/{widgetId}, GET` will getDocumentInfo for `widgetId`, and similarly for documents, audit trail, etc. 
-
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -108,7 +107,6 @@ In SOAP API, `getDocumentInfo`, `getDocuments`, `getAuditTrail` etc. work on `do
 | `getDocumentInfosByExternalId` | /agreements, GET query = externalId | 
 
 `externalId` can be used to map your internal IDs to eSign IDs. 
-
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -116,7 +114,6 @@ In SOAP API, `getDocumentInfo`, `getDocuments`, `getAuditTrail` etc. work on `do
 | `getDocuments` | /agreements/{agrId}/documents, GET | 
 
 REST returns a list of document IDs that can be provided to the following endpoint to get a document stream. 
-
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -124,7 +121,6 @@ REST returns a list of document IDs that can be provided to the following endpoi
 | `getDocumentUrls` | /agreements/{agrId}/combinedDocument/url, GET | 
 
 Retrieve the URL of the combined document. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -132,7 +128,6 @@ Retrieve the URL of the combined document.
 | `getDocumentUrls` | /agreements/{agrId}/documents/{docId}/url, GET | 
 
 Retrieve the URL of an individual document. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -140,7 +135,6 @@ Retrieve the URL of an individual document.
 | `getDocumentImageUrls` | /agreements/{agrId}/documents/imageUrls, GET | 
 
 Retrieve the image URLs of all the visible pages of an agreement. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -148,7 +142,6 @@ Retrieve the image URLs of all the visible pages of an agreement.
 | `getDocumentImageUrls` | /agreements/{agrId}/documents/{docId}/imageUrls, GET | 
 
 Retrieve image URLs of all the visible pages of an agreement&rsquo;s document. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -156,7 +149,6 @@ Retrieve image URLs of all the visible pages of an agreement&rsquo;s document.
 | `getSupportingDocuments` | /agreements/{agrId}/documents, GET | 
 
 Can also specify the content format. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -164,7 +156,6 @@ Can also specify the content format.
 | `getFormData` | /agreements/{agrId}/formData, GET | 
 
 Returns a CSV file stream. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -184,7 +175,6 @@ Returns a CSV file stream.
 | `getEmbeddedView` | /agreements/{agrId}/views, POST | 
 
 Use the name = DOCUMENT to get the embedded view of an agreement. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -198,7 +188,6 @@ Use the name = DOCUMENT to get the embedded view of an agreement.
 | `getUserDocuments` | /agreements, GET | 
 
 Use `x-api-user` for specifying the user whose agreements are to be retrieved. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -212,7 +201,6 @@ Use `x-api-user` for specifying the user whose agreements are to be retrieved.
 | `getLibraryDocumentsForUser` | /libraryDocuments, GET | 
 
 Use `x-api-user` for specifying the user whose library documents are to be retrieved. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -226,7 +214,6 @@ Use `x-api-user` for specifying the user whose library documents are to be retri
 | `getWidgetsForUser` | /widgets, GET | 
 
 Use `x-api-user` for specifying the user whose widgets are to be retrieved. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -234,7 +221,6 @@ Use `x-api-user` for specifying the user whose widgets are to be retrieved.
 | `getMegaSignDocument` | /megaSigns/{megaSignId}/agreements, GET | 
 
 Get all child agreement IDs of the parent MegaSign. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -260,7 +246,6 @@ Get all child agreement IDs of the parent MegaSign.
 | `moveUsersToGroup` | /users/{userId}/groups, PUT | 
 
 Specify the new `groupId` in the request. 
-
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
