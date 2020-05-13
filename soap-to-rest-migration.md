@@ -133,7 +133,7 @@ Retrieve the URL of the **combined document**.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getDocumentUrls**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | /agreements/{agrId}/documents/{docId}/url, GET  **Not a v6 REST API** | 
+| [**getDocumentUrls**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | [/agreements/{agrId}/documents/{docId}/url, GET](https://secure.na1.echosign.com/public/docs/restapi/v5#!/agreements/getDocumentUrl) | 
 
 Retrieve the URL of an **individual document**. 
 &nbsp;  
