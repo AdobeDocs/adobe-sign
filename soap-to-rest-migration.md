@@ -100,80 +100,95 @@ Delegate: Called by signer. Both the delegator and delegatee can sign.
 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getDocumentInfo` | /agreements/{agrId}, GET | 
+| [getDocumentInfo](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfo) | /agreements/{agrId}, GET | 
 
 In SOAP API, `getDocumentInfo`, `getDocuments`, `getAuditTrail` etc. work on `documentKeys`, which can be an ID for an agreement, widget, or library document. The REST API demarcates these as separate resources (cleaner design and strongly typed) and hence, based on the kind of resource you are working on, there is a corresponding /libraryDocuments, /widgets to these. Example: `/widgets/{widgetId}, GET` will getDocumentInfo for `widgetId`, and similarly for documents, audit trail, etc. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getDocumentInfosByExternalId` | /agreements, GET query = externalId | 
+| [getDocumentInfosByExternalId](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentInfosByExternalId) | /agreements, GET query = externalId | 
 
 `externalId` can be used to map your internal IDs to eSign IDs. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getDocuments` | /agreements/{agrId}/documents, GET | 
+| [getDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocuments) | /agreements/{agrId}/documents, GET | 
 
 REST returns a list of document IDs that can be provided to the following endpoint to get a document stream. 
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getDocumentUrls` | /agreements/{agrId}/combinedDocument/url, GET | 
+| [getDocumentUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | /agreements/{agrId}/combinedDocument/url, GET | 
 
 Retrieve the URL of the **combined document**. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getDocumentUrls` | /agreements/{agrId}/documents/{docId}/url, GET | 
+| [getDocumentUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentUrls) | /agreements/{agrId}/documents/{docId}/url, GET | 
 
 Retrieve the URL of an **individual document**. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getDocumentImageUrls` | /agreements/{agrId}/documents/imageUrls, GET | 
+| [getDocumentImageUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentImageUrls) | /agreements/{agrId}/documents/imageUrls, GET | 
 
 Retrieve the image URLs of **all visible pages** of an agreement. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getDocumentImageUrls` | /agreements/{agrId}/documents/{docId}/imageUrls, GET | 
+| [getDocumentImageUrls](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentImageUrls)  | /agreements/{agrId}/documents/{docId}/imageUrls, GET | 
 
 Retrieve image URLs of a specified documentID. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getSupportingDocuments` | /agreements/{agrId}/documents, GET | 
+| [getSupportingDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getSupportingDocuments) | /agreements/{agrId}/documents, GET | 
 
 Can also specify the content format. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getFormData` | /agreements/{agrId}/formData, GET | 
+| [getFormData](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getFormData) | /agreements/{agrId}/formData, GET | 
 
 Returns a CSV file stream. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getAuditTrail` | /agreements/{agrId}/auditTrail, GET |   
+| [getAuditTrail](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getAuditTrail) | /agreements/{agrId}/auditTrail, GET |   
     
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| `getSigningUrl` | /agreements/{agrId}/signingUrls, GET |   
+| [getSigningUrl](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getSigningUrl) | /agreements/{agrId}/signingUrls, GET |   
 
 &nbsp;  
 &nbsp; 
 ## User Methods
 
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [verifyUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#verifyUser) | TBD| 
+
+&nbsp;
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [searchUserDocuments](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#searchUserDocuments) | TBD | 
+
+&nbsp;
+| **SOAP Endpoint** | **REST Endpoint**  |
+| :---    |  :----   |
+| [getDocumentEventsForUser](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentEventsForUser) | TBD | 
+
+&nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getEmbeddedView` | /agreements/{agrId}/views, POST | 
