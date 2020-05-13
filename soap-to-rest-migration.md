@@ -269,7 +269,7 @@ Get all child agreement IDs of the parent MegaSign.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**deleteGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#deleteGroup) | **v5 REST Only** [/groups/[groupId, DELETE](https://secure.na1.echosign.com/public/docs/restapi/v5#!/groups/deleteGroup) |   
+| [**deleteGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#deleteGroup) | **v5 REST Only** [/groups/groupId, DELETE](https://secure.na1.echosign.com/public/docs/restapi/v5#!/groups/deleteGroup) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
