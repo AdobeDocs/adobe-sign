@@ -4,7 +4,7 @@ If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating 
 The list below shows the SOAP endpoints with their REST equivalents. Both endpoints link directly to the full method description.
 * [General-purpose Methods](#general-purpose-methods)
 * [Document Methods](#document-methods)
-* [Status Methods](#status-mehtods)
+* [Status Methods](#status-methods)
 * [User Methods](#user-methods)
 * [Web Form Methods](#web-form-methods)
 * [Test Methods](#test-methods)
