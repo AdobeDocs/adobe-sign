@@ -172,7 +172,9 @@ Returns a CSV file stream.
 ## User Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**verifyUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#verifyUser) | TBD| 
+| [**verifyUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#verifyUser) | [/users/{userId}, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/users/getUserDetail)| 
+
+The REST equivalent can be used to see if the user exists, but does not support password verification.
 
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -182,7 +184,7 @@ Returns a CSV file stream.
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getDocumentEventsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentEventsForUser) | TBD | 
+| [**getDocumentEventsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getDocumentEventsForUser) | [/agreement/{agrId}/events, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getEvents) | 
 
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
