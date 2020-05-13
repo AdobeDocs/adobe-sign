@@ -3,7 +3,8 @@
 If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the v6 REST APIs. 
 The list below shows the SOAP endpoints with their REST equivalents. Both endpoints link directly to the full method descripotion.
 
-## General-purpose Methods:
+## General-purpose Methods
+
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [getBaseUris](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getBaseUris) | /baseUris, GET  |
