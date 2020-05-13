@@ -38,7 +38,6 @@ MegaSign allows sending the same agreement to multiple recipients and creating a
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `createLibraryDocument` | /libraryDocuments, POST |
-
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -59,7 +58,6 @@ From v6 onwards, the interactive views can be specified and obtained from the `P
 | `removeDocument` | /agreements/{agrId}/documents, DELETE | 
 
 To delete the documents of agreements, use the `DELETE /agreements/{agrId}/documents` endpoint; and to remove it from Manage Page(GET /agreements), use `PUT /agreements/{agrId}/visibility` 
-
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -67,7 +65,6 @@ To delete the documents of agreements, use the `DELETE /agreements/{agrId}/docum
 | `cancelDocument` | /agreements/{agrId}/state, PUT | 
 
 Cancel: Called by sender. 
-
 &nbsp;  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -89,7 +86,6 @@ Replace: Called by sender. Both the original signer and new one can sign.
 | `delegateSigning` | /agreements/{agrId}/participantSets/{psId}/ participants/{pId}/delegatedParticipantSet, POST | 
 
 Delegate: Called by signer. Both the delegator and delegatee can sign. 
-
 
 &nbsp;  
 &nbsp; 
