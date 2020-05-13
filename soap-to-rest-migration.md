@@ -187,7 +187,7 @@ Returns a CSV file stream.
 &nbsp;
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getEmbeddedView**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getEmbeddedView) | /agreements/{agrId}/views, POST | 
+| [**getEmbeddedView**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getEmbeddedView) | [/agreements/{agrId}/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/createAgreementView) | 
 
 Use the name = DOCUMENT to get the embedded view of an agreement. 
 
@@ -195,24 +195,24 @@ Use the name = DOCUMENT to get the embedded view of an agreement.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getUserDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserDocuments) | /agreements, GET | 
+| [**getUserDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserDocuments) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) | 
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getMyDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyDocuments) | /agreements, GET |   
+| [**getMyDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyDocuments) | [/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreements) |   
 
 Use `x-api-user` for specifying the user whose agreements are to be retrieved. 
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getLibraryDocumentsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getLibraryDocumentsForUser) | /libraryDocuments, GET | 
+| [**getLibraryDocumentsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getLibraryDocumentsForUser) | [/libraryDocuments, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/libraryDocuments/getLibraryDocuments) | 
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getMyLibraryDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyLibraryDocuments) | /libraryDocuments, GET |   
+| [**getMyLibraryDocuments**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyLibraryDocuments) | [/libraryDocuments, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/libraryDocuments/getLibraryDocuments) |   
 
 Use `x-api-user` for specifying the user whose library documents are to be retrieved. 
 
@@ -220,27 +220,27 @@ Use `x-api-user` for specifying the user whose library documents are to be retri
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getWidgetsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getWidgetsForUser) | /widgets, GET | 
+| [**getWidgetsForUser**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getWidgetsForUser) | [/widgets, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgets) | 
 
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getMyWidgets**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyWidgets) | /widgets, GET |   
+| [**getMyWidgets**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMyWidgets) | [/widgets, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgets) |   
 
 Use `x-api-user` for specifying the user whose widgets are to be retrieved. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getMegaSignDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMegaSignDocument) | /megaSigns/{megaSignId}/agreements, GET | 
+| [**getMegaSignDocument**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getMegaSignDocument) | [/megaSigns/{megaSignId}/agreements, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/megaSigns/getMegaSignChildAgreements) | 
 
 Get all child agreement IDs of the parent MegaSign. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getUsersInAccount**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInAccount) | /users, GET |   
+| [**getUsersInAccount**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInAccount) | [/users, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/users/getUsers) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -260,31 +260,31 @@ Get all child agreement IDs of the parent MegaSign.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getGroupsInAccount**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getGroupsInAccount) | /groups, GET |   
+| [**getGroupsInAccount**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getGroupsInAccount) | [/groups, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/groups/getGroups) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getUsersInGroups**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInGroup) | /groups/{groupId}/users, GET |   
+| [**getUsersInGroups**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUsersInGroup) | [/groups/{groupId}/users, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/groups/getUsersInGroup) |   
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**moveUsersToGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#moveUsersToGroup) | /users/{userId}/groups, PUT | 
+| [**moveUsersToGroup**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#moveUsersToGroup) | [/users/{userId}/groups, PUT](https://secure.na1.echosign.com/public/docs/restapi/v6#!/users/updateGroupsOfUser) | 
 
 Specify the new `groupId` in the request. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getUserInfo**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserInfo) | /users/{userId}, GET |   
+| [**getUserInfo**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getUserInfo) | [/users/{userId}, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/users/getUserDetail) |   
 
 &nbsp; 
 &nbsp; 
 ## Web Form Methods:  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createEmbeddedWidget) | /widgets, POST |
+| [**createEmbeddedWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createEmbeddedWidget) | [/widgets, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget) |
 
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -299,7 +299,7 @@ Specify the new `groupId` in the request.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createUrlWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createUrlWidget) | /widgets, POST |   
+| [**createUrlWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#createUrlWidget) | [/widgets, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -314,14 +314,14 @@ Specify the new `groupId` in the request.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**disableWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#disableWidget) | /widgets/{widgetId}/state, PUT | 
+| [**disableWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#disableWidget) | [/widgets/{widgetId}/state, PUT](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/updateWidgetState) | 
 
 Use status value as `INACTIVE`. 
 &nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**enableWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#enableWidget) | /widgets/{widgetId}/state, PUT | 
+| [**enableWidget**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#enableWidget) | [/widgets/{widgetId}/state, PUT](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/updateWidgetState) | 
 
 Use status value as `ACTIVE`. 
 
