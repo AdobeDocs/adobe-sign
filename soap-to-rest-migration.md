@@ -186,7 +186,6 @@ Use the name = DOCUMENT to get the embedded view of an agreement.
 | `getMyDocuments` | /agreements, GET |   
 
 &nbsp;  
-&nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getUserDocuments` | /agreements, GET | 
@@ -197,8 +196,7 @@ Use `x-api-user` for specifying the user whose agreements are to be retrieved.
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getMyLibraryDocuments` | /libraryDocuments, GET |   
-
-&nbsp;  
+  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
@@ -210,8 +208,7 @@ Use `x-api-user` for specifying the user whose library documents are to be retri
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getMyWidgets` | /widgets, GET |   
-
-&nbsp;  
+  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
@@ -230,20 +227,17 @@ Get all child agreement IDs of the parent MegaSign.
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getUsersInAccount` | /users, GET |   
-
-&nbsp;  
+ 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getGroupsInAccount` | /groups, GET |   
-
-&nbsp;  
+ 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `getUsersInGroups` | /groups/{groupId}/users, GET |   
 
-&nbsp;  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
@@ -256,22 +250,19 @@ Specify the new `groupId` in the request.
 | :---    |  :----   |
 | `getUserInfo` | /users/{userId}, GET |   
 
-
-&nbsp;  
+&nbsp; 
 &nbsp; 
 ## Web Form Methods
   
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `createEmbeddedWidget` | /widgets, POST |   
-
-&nbsp;  
+  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | `createUrlWidget` | /widgets, POST |   
-
-&nbsp;  
+ 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
