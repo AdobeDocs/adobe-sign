@@ -2,13 +2,13 @@
 
 If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the v6 REST APIs. 
 The list below shows the SOAP endpoints with their REST equivalents. Both endpoints link directly to the full method description.
-* General-purpose Methods
-* Document Methods
-* Status Methods
-* User Methods
-* Web Form Methods
-* Test Methods
-* Depricated Methods
+* [General-purpose Methods](#general-purpose-methods)
+* [Document Methods](#document-methods)
+* [Status Methods](#status-mehtods)
+* [User Methods](#user-methods)
+* [Web Form Methods](#web-form-methods)
+* [Test Methods](#test-methods)
+* [Deprecated Methods](#deprecated-methods-from-legacy-soap-versions)
 
 ## General-purpose Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
