@@ -372,7 +372,7 @@ Use status value as `ACTIVE`.
 &nbsp; 
 ## Deprecated Methods from legacy SOAP versions:
 ### Access Methods:
-* issueAccessToken - [OAuth has replaced access tokens](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md).
+* issueAccessToken - [OAuth has replaced access tokens](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md).
 
 &nbsp; 
 ### Document Methods:
@@ -389,7 +389,7 @@ Use status value as `ACTIVE`.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**getDocumentByVersion**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentByVersion)    |  [/agreements/{agreementId}/combinedDocument, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocument)  | 
+| [**getDocumentByVersion**](https://secure.na1.echosign.com/public/docs/EchoSignDocumentService13#getDocumentByVersion)    |  [/agreements/{agreementId}/combinedDocument, GET](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getCombinedDocument)  | 
 
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
