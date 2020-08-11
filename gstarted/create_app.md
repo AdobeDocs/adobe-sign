@@ -6,15 +6,14 @@ Adobe Sign uses the OAuth authentication protocol to authorize requests for any 
 
 1. [Log in to Adobe Sign](https://secure.adobesign.com/public/login).
 
-2.  Select **Account** from the top menu.  
+2.  Navigate from the top menu: **Account > Adobe Sign API > API Applications**  
 
     ![Selecting API access](../img/sign_gstarted_1.png) 
     
-3. Select **API Applications.**  
 
     ![Selecting API Applications](../img/sign_gstarted_2.png)  
 
-4. Select the **Create** (+) icon and provide details about your app.  
+3. Select the **Create** (+) icon and provide details about your app.  
 
     ![Creating a new app](../img/sign_gstarted_3.png)
 
