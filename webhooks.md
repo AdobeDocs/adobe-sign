@@ -2,21 +2,21 @@
 
 ## On this page
 - [Overview](#overview)
-- [How do webhooks work?](#howdowebhookswork)
-- [Creating a webhook](#creatingawebhook)
+- [How do webhooks work?](#how-do-webhooks-work)
+- [Creating a webhook](#creating-a-webhook)
     - [Prerequisites](#prerequisites)
-    - [Configure a webhook and subscribe to events](#configureawebhookandsubscribetoevents)
-    - [Verification of intent of the webhook URL](#verificationofintentofthewebhookurl)
-    - [Hosting your webhook in the cloud](#hostingyourwebhookinthecloud)
-- [Webhook properties](#webhookproperties)
-    - [Webhook URL](#webhookurl)
-    - [Webhook status](#webhookstatus)
-    - [Webhook scopes](#webhookscopes)
-    - [Webhook events](#webhookevents)
-    - [Webhook conditional parameters](#webhookconditionalparameters)
-- [Managing webhooks and subscriptions (Webhook APIs)](#managingwebhooksandsubscriptionswebhookapis)
-- [Securing webhooks](#securingwebhooks)
-- [Best practices](#bestpractices)
+    - [Configure a webhook and subscribe to events](#configure-a-webhook-and-subscribe-to-events)
+    - [Verification of intent of the webhook URL](#verification-of-intent-of-the-webhook-url)
+    - [Hosting your webhook in the cloud](#hosting-your-webhook-in-the-cloud)
+- [Webhook properties](#webhook-properties)
+    - [Webhook URL](#webhook-url)
+    - [Webhook status](#webhook-status)
+    - [Webhook scopes](#webhook-scopes)
+    - [Webhook events](#webhook-events)
+    - [Webhook conditional parameters](#webhook-conditional-parameters)
+- [Managing webhooks and subscriptions (Webhook APIs)](#managing-webhooks-and-subscriptions-webhook-apis)
+- [Securing webhooks](#securing-webhooks)
+- [Best practices](#best-practices)
 
 ## Overview
 
@@ -50,7 +50,7 @@ following prerequisites:
 1.  Obtain a unique set of application credentials (an application ID and an application secret). Account administrators can generate these credentials through the Adobe Sign API page under "My Profile".
 
 2.  Webhook API calls require an [OAuth Access
-    Token](https://secure.echosign.com/public/static/oauthDoc.jsp). Each operation on a resource requires specific OAuth scope(s), and your application will need to request all of the needed scopes during the OAuth authorization process.
+    Token](https://secure.adobesign.com/public/static/oauthDoc.jsp). Each operation on a resource requires specific OAuth scope(s), and your application will need to request all of the needed scopes during the OAuth authorization process.
 
 3.  Use the access token received from the OAuth authentication and authorization process in the following REST endpoints to perform operations on behalf of the user who authorized the API access.
 
