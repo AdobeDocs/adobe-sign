@@ -5,7 +5,7 @@ To invoke the Sign APIs, your application must first get an OAuth access token o
 First, copy and paste the following URL in a browser window and change the values for  `redirect_uri` and `client_id`:
 
 ```
-https://secure.echosign.com/public/oauth?
+https://secure.adobesign.com/public/oauth?
     redirect_uri=https://myserver.com&
     response_type=code&
     client_id=CBAThIsIsNoTaReAlmPBvPF&
@@ -24,8 +24,8 @@ Once you select Allow Access, the page gets redirected to the following URL:
 ```
 https://myserver.com/?
     code=CBNCKBAThIsIsNoTaReAlcs_sL4K32wCzs4N&
-    api_access_point=https://api.echosign.com&
-    web_access_point=https://secure.echosign.com
+    api_access_point=https://api.adobesign.com&
+    web_access_point=https://secure.adobesign.com
 ```
 
 Note the code _CBNCKBAThIsIsNoTaReAlcs_sL4K32wCzs4N_ in the request. This is the authorization code that you will use to get the OAuth access token.
@@ -33,7 +33,7 @@ Note the code _CBNCKBAThIsIsNoTaReAlcs_sL4K32wCzs4N_ in the request. This is the
 You can send the authorization code along with the Client ID and Client Secret to the Sign Service to get the token. Use the same api_access_point that you got from the previous response.
 
 ```
-POST http://api.echosign.com/oauth/token?
+POST http://api.adobesign.com/oauth/token?
     code=CBNCKBAThIsIsNoTaReAlcs_sL4K32wCzs4N&
     client_id=CBAThIsIsNoTaReAlmPBvPF&
     client_secret=319UThIsIsNoTaReAl2-4OxkVo9ycU&
