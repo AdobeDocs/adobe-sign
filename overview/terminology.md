@@ -1,7 +1,7 @@
 # Terminology
 
 **Transient document**  
-The document that is used to create an agreement or a widget. The document is first uploaded to Adobe Sign by the sender. This is referred to as _transient_ since it is available for use only for 7 days after the upload.
+The document that is used to create an agreement or a web form. The document is first uploaded to Adobe Sign by the sender. This is referred to as _transient_ since it is available for use only for 7 days after the upload.
 
 **Library template**  
 A library template can be reused or repurposed multiple times. Adobe Sign supports two types of library templates:
@@ -17,8 +17,8 @@ Instead of creating a new library document every time a document is updated, the
 **Agreement**  
 When a document is sent to recipients for signing or approval, an agreement is created. You can track the status and completion of an agreement using APIs.
 
-**Widget**  
-Widgets are hosted documents that can be signed by anyone who has access to them. They are ideal for signup sheets, waivers, or any document you need many people to access and sign online. See [Parental Consent](../scenarios/parental-consent.md) for an example.
+**Widget or Web Form**  
+Web forms are hosted documents that can be signed by anyone who has access to them. They are ideal for signup sheets, waivers, or any document you need many people to access and sign online. See [Parental Consent](../scenarios/parental-consent.md) for an example.
 
 **Mega Signing**  
 The Mega Sign process allows you to send a document to hundreds of individuals at once. Each signer signs his/her own copy of the document and these individual agreements are returned to you. This process can be used to collect NDAs, HR documents, or permission slips.
