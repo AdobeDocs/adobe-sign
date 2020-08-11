@@ -3,7 +3,7 @@
 ## On this page 
 - [Overview](#overview)
 - [Enhancements](#enhancements)
-    - [Pagination support ](#paginationsupport)
+    - [Pagination support ](#pagination-support)
     - [Constant IDs](#constantids)
     - [ETag support](#etagsupport)
     - [GET, PUT, POST consistency](#getputpostconsistency)
