@@ -2,11 +2,11 @@
 
 ## On this page
 
-- [Create an AWS Lambda function](#createanawslambdafunction)
-- [Add logic to register your Adobe Sign webhook](#addlogictoregisteryouradobesignwebhook)
-- [Configure the AWS API Gateway](#configuretheawsapigateway)
-- [Deploy the API](#deploytheapi)
-- [Ready to use](#readytouse)
+- [Create an AWS Lambda function](#create-an-aws-lambda-function)
+- [Add logic to register your Adobe Sign webhook](#add-logic-to-register-your-adobe-sign-webhook)
+- [Configure the AWS API Gateway](#configure-the-aws-api-gateway)
+- [Deploy the API](#deploy-the-api)
+- [Ready to use](#ready-to-use)
 
 AWS Lambda Functions is a serverless computing service offered by Amazon Web Services. AWS Lambda Functions offer you a platform in which you can execute function code on demand over the internet without the need to manage your own web servers. This gives you a no-overhead solution for hosting functions in the cloud, such as webhooks for Adobe Sign. AWS Lambda Functions support Node.js (JavaScript), Java, Python, C\#, and Go.
 
