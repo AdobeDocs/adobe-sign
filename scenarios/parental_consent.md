@@ -22,7 +22,7 @@ Before you begin creating a Widget, learn to [upload a document for signing](../
 
 ## **Creating a Widget**
 
-See [Creating a Widget](../api_uasge/create_widget.md).
+See [Creating a Widget](../api_usage/create_widget.md).
 
-Each time a widget is signed by a parent, a separate instance of a document gets created. To get the agreements created using the widget, see [Download the Agreement](../api_uasge/download_agreement.md) .
+Each time a widget is signed by a parent, a separate instance of a document gets created. To get the agreements created using the widget, see [Download the Agreement](../api_usage/download_agreement.md) .
 
