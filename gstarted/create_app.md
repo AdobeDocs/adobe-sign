@@ -4,7 +4,7 @@ To use Adobe Sign APIs, you need to first create an application.
 
 Adobe Sign uses the OAuth authentication protocol to authorize requests for any Sign API endpoint. So, you need to get the Application ID and Application Secret from the web UI of Adobe Sign.  
 
-1. [Log in to Adobe Sign](https://secure.echosign.com/public/login).
+1. [Log in to Adobe Sign](https://secure.adobesign.com/public/login).
 
 2.  Select **API** from the top menu.  
 
