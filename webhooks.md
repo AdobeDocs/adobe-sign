@@ -328,10 +328,10 @@ The Adobe Sign webhook APIs are essential, as you use the `POST /webhooks` API t
 
 - [POST /webhooks](webhooks/webhook_apis.md#post-webhooks) Creates a new webhook.
 - [GET /webhooks](webhooks/webhook_apis.md#get-webhooks) Retrieves webhooks for a user.
-- [GET /webhooks/{webhookId}](webhooks/webhook_apis.md#get-webhooks-webhookid) Retrieves details of a webhook.
-- [PUT /webhooks/{webhookId}](webhooks/webhook_apis.md#put-webhooks-webhookid) Modifies an existing webhook.
-- [PUT /webhooks/{webhookId}/state](webhooks/webhook_apis.md#put-webhooks-webhookid-state) Modifies an existing webhook&rsquo;s status(ACTIVE/INACTIVE).
-- [DELETE /webhooks/{webhookId}](webhooks/webhook_apis.md#delete-webhooks-webhookid) Deletes a webhook.
+- [GET /webhooks/{webhookId}](webhooks/webhook_apis.md#get-webhookswebhookid) Retrieves details of a webhook.
+- [PUT /webhooks/{webhookId}](webhooks/webhook_apis.md#put-webhookswebhookid) Modifies an existing webhook.
+- [PUT /webhooks/{webhookId}/state](webhooks/webhook_apis.md#put-webhookswebhookidstate) Modifies an existing webhook&rsquo;s status(ACTIVE/INACTIVE).
+- [DELETE /webhooks/{webhookId}](webhooks/webhook_apis.md#delete-webhookswebhookid) Deletes a webhook.
 
 
 ## Securing webhooks
