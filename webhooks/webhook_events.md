@@ -1,12 +1,12 @@
 # Webhook Events
 
 ## On this page
-- [Notification payload for events](#notificationpayloadforevents)
-- [Receiving a webhook notification](#receivingawebhooknotification)
-- [Reliable delivery of webhook notifications](#reliabledeliveryofwebhooknotifications)
-- [Payload info](#payloadinfo)
-- [Webhook uniqueness](#webhookuniqueness)
-- [SuperSet events](#supersetevents)
+- [Notification payload for events](#notification-payload-for-events)
+- [Receiving a webhook notification](#receiving-a-webhook-notification)
+- [Reliable delivery of webhook notifications](#reliable-delivery-of-webhook-notifications)
+- [Payload info](#payload-info)
+- [Webhook uniqueness](#webhook-uniqueness)
+- [SuperSet events](#superset-events)
 
 Events are the reason for webhooks: webhooks are a way for your Adobe Sign integration to listen for and respond to Adobe Sign events. This page provides the info you need to determine what events your integration will listen for and respond to, and what details are included in event notifications so you can design your integration to extract the info you need from an event.
 
