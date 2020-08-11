@@ -11,7 +11,7 @@ The samples included in this section are Java clients of the Adobe Sign REST API
 - [Send reminders to participants](samples/send_reminders.md)
 - [Download the documents from an agreement](samples/download_documents.md)
 - [Download a combined document](samples/download_combined_doc.md)
-- [Download an audit trail](samples/download_audit_trail.md)
+- [Download an audit report](samples/download_audit_report.md)
 
 ## The package
 All sources are under the *adobesign.api.rest.sample* package (and sub packages) as published in the [Adobe Sign GitHub repo](https://www.adobe.com/go/esign-api-samples) and are laid out as follows:
@@ -34,12 +34,12 @@ These instructions will help you run the samples provided here.
 
 ### Prerequisites
 
-Before using the samples, you need to obtain either an OAuth access token or an integration key. Please refer to the AdobeSign API page (https://secure.echosign.com/account/echosignApi) for information on how to do this for your account.
+Before using the samples, you need to obtain either an OAuth access token or an integration key. Please refer to the AdobeSign API page (https://secure.adobesign.com/account/echosignApi) for information on how to do this for your account.
 
 You can provide this token or key as a value to the `OAUTH_ACCESS_TOKEN` constant in RestApiOAuthTokens.java, or you can provide a refresh token as a value to the `OAUTH_REFRESH_TOKEN` constant (in the same class) which will be used to refresh the OAuth access token.
 
 If neither is provided, then a new OAuth access token will be requested from AdobeSign based on credentials provided in the OAuthCredentials.json file.
-Please refer to the AdobeSign OAuth page (https://secure.echosign.com/public/static/oauthDoc.jsp) for information on how to obtain OAuth credentials for your account.
+Please refer to the AdobeSign OAuth page (https://secure.adobesign.com/public/static/oauthDoc.jsp) for information on how to obtain OAuth credentials for your account.
 
 ### Using the Samples
 
