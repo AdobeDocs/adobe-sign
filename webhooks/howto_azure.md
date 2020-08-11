@@ -4,7 +4,7 @@
 
 - [Prerequisites](#prerequisites)
 - [Steps to create an Azure Functions Trigger that serves as an Adobe Sign Webhook](#steps-to-create-an-azure-functions-trigger-that-serves-as-an-adobe-sign-webhook)
-    - [Create a JavaScript HttpTrigger function](#create-a-java-script-httptrigger-function)
+    - [Create a JavaScript HttpTrigger function](#create-a-javascript-httptrigger-function)
     - [Add logic to register your Adobe Sign webhook](#add-logic-to-register-your-adobe-sign-webhook)
 - [Ready to use](#Ready-to-use)
 - [Get the function URL](#get-the-functions-url)
