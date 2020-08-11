@@ -2,14 +2,14 @@
 
 ## On this page
 - [Endpoints](#endpoints)
-- [POST /webhooks ](#postwebhooks) Creates a new webhook.
-- [GET /webhooks](#getwebhooks) Retrieves webhooks for a user.
-- [GET /webhooks/{webhookId}](#getwebhookswebhookid) Retrieves details of a webhook.
-- [PUT /webhooks/{webhookId}](#putwebhookswebhookid) Modifies an existing webhook.
-- [PUT /webhooks/{webhookId}/state](#putwebhookswebhookidstate) Modifies an existing webhook&rsquo;s status(ACTIVE/INACTIVE).
-- [DELETE /webhooks/{webhookId}](#deletewebhookswebhookid) Deletes a webhook.
-- [Standard error codes in every API request](#standarderrorcodesineveryapirequest)
-- [Standard headers in every API request](#standardheadersineveryapirequest)
+- [POST /webhooks ](#post-webhooks) Creates a new webhook.
+- [GET /webhooks](#get-webhooks) Retrieves webhooks for a user.
+- [GET /webhooks/{webhookId}](#get-webhookswebhookid) Retrieves details of a webhook.
+- [PUT /webhooks/{webhookId}](#put-webhookswebhookid) Modifies an existing webhook.
+- [PUT /webhooks/{webhookId}/state](#put-webhookswebhookidstate) Modifies an existing webhook&rsquo;s status(ACTIVE/INACTIVE).
+- [DELETE /webhooks/{webhookId}](#delete-webhookswebhookid) Deletes a webhook.
+- [Standard error codes in every API request](#standard-error-codes-in-every-api-request)
+- [Standard headers in every API request](#standard-headers-in-every-api-request)
 
 Webhook APIs are the means by which your integration communicates with the Adobe Sign service about webhooks. Use the various API endpoints to create, delete, modify, and retrieve status information about your webhooks.
 
