@@ -24,7 +24,7 @@
 
 ## Overview
 
-This page is a comprehensive guide for developers who are looking to plug Adobe Sign Version 6 REST APIs in their solutions. We list out all the enhancements and new features that are part of the v6 Adobe Sign APIs. To facilitate developers who are already using older versions of our APIs in migrating to Version 6, we have tabulated the v6 APIs against their closest counterparts in previous versions in the [API Change Log](api_change_log.md). In the change log, we have documented enhancements, features, and any changes from the prior version. In addition to the information compiled here, you can also refer to our  [Swagger documentation page](https://secure.echosign.com/public/docs/restapi/v6) to get a quick reference for the Adobe Sign APIs. This page lists all our APIs in a easily discoverable format and lets you try them out without having to write any code!
+This page is a comprehensive guide for developers who are looking to plug Adobe Sign Version 6 REST APIs in their solutions. We list out all the enhancements and new features that are part of the v6 Adobe Sign APIs. To facilitate developers who are already using older versions of our APIs in migrating to Version 6, we have tabulated the v6 APIs against their closest counterparts in previous versions in the [API Change Log](api_change_log.md). In the change log, we have documented enhancements, features, and any changes from the prior version. In addition to the information compiled here, you can also refer to our  [Swagger documentation page](https://secure.adobesign.com/public/docs/restapi/v6) to get a quick reference for the Adobe Sign APIs. This page lists all our APIs in a easily discoverable format and lets you try them out without having to write any code!
 
 ## Enhancements
 
@@ -34,7 +34,7 @@ Existing Adobe Sign APIs return the entire list of resources (agreements, widget
 
 **Sample Request**
 
-```GET https://api.na1.echosign.com:443/api/rest/v6/agreements?pageSize=50```
+```GET https://api.na1.adobesign.com:443/api/rest/v6/agreements?pageSize=50```
 
 **Sample Response**
 
