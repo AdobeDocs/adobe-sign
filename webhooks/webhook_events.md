@@ -75,7 +75,7 @@ This may happen, for example, on an agreement completion event if it includes si
 
 ### Basic webhook payload for all notifications
 
-All events will include the following common attributes in their payloads. Additional parameters returned along with basic agreement/widget/megasign info in the payload JSON object for particular keys are defined in the payload specificiations for each event; see [Notification payload for events](#notificationpayloadforevents) for links.
+All events will include the following common attributes in their payloads. Additional parameters returned along with basic agreement/widget/megasign info in the payload JSON object for particular keys are defined in the payload specificiations for each event; see [Notification payload for events](#notification-payload-for-events) for links.
 
 | Parameter name | Type | Description | Possible values |
 | --- | --- | --- | --- |
