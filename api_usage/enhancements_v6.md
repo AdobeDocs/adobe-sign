@@ -73,7 +73,7 @@ The subsequent GET /resources calls would just need to add  **nextCursor**  as  
 
 **Sample Request**
 
-```GET https://api.na1.echosign.com:443/api/rest/v6/agreements?pageSize=50&cursor=qJXXj2UAUX1X9rTSqoUOUOlkhsdo*```
+```GET https://api.na1.adobesign.com:443/api/rest/v6/agreements?pageSize=50&cursor=qJXXj2UAUX1X9rTSqoUOUOlkhsdo*```
 
 ### Constant IDs
 
@@ -90,7 +90,7 @@ In addition, this also helps to resolve conflicts in the case of concurrent upda
 **Sample GET Operation (ETag in Request Header)**
 
 ```http
-URI : GET https://api.na1.echosign.com:443/api/rest/v6/agreements/CBJCHBCAABAAQonMXhG-V6w-rheRViZNFGxmCgEEf3k0 
+URI : GET https://api.na1.adobesign.com:443/api/rest/v6/agreements/CBJCHBCAABAAQonMXhG-V6w-rheRViZNFGxmCgEEf3k0 
 
 Headers : Authorization: Bearer <access-token>
           Accept: */*
@@ -120,7 +120,7 @@ Update or delete operations will have a similar workflow. The clients are requir
 **Sample PUT Operation (ETag In Request Header)**
 
 ```http
-URI : PUT  https://api.na1.echosign.com:443/api/rest/v6/agreements/CBJCHBCAABAAQonMXhG-V6w-rheRViZNFGxmCgEEf3k0/status
+URI : PUT  https://api.na1.adobesign.com:443/api/rest/v6/agreements/CBJCHBCAABAAQonMXhG-V6w-rheRViZNFGxmCgEEf3k0/status
 
 Headers : Authorization: Bearer <access-token>
           Accept: */*
@@ -163,7 +163,7 @@ The ETag value required to be passed in any PUT or DELETE API can be obtained fr
 
 ### GET, PUT, POST consistency
 
-In building the Adobe Sign v6 APIs, we have enabled more simplicity in the design of client applications by creating consistency across GET, POST, and PUT operations in each API, thereby enabling clients to reuse the same model across these APIs. For reference see the [agreement model](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo) in the (POST|PUT|GET) /agreements API.
+In building the Adobe Sign v6 APIs, we have enabled more simplicity in the design of client applications by creating consistency across GET, POST, and PUT operations in each API, thereby enabling clients to reuse the same model across these APIs. For reference see the [agreement model](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo) in the (POST|PUT|GET) /agreements API.
 
 ### Performance improvements
 
@@ -177,9 +177,9 @@ One of the significant change in v6 API's has been to make resource intensive op
 
 Refer the lists below all the asynchronous api's and their corresponding GET api's which clients can poll on till polling condition holds true.
 
-**Asynchronous API:** [POST /agreements](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/createAgreement)
+**Asynchronous API:** [POST /agreements](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/createAgreement)
 
-**GET API To Poll:** [GET /agreements/{agreementId}](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo)
+**GET API To Poll:** [GET /agreements/{agreementId}](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo)
 
 **GET Response Body:**
 {   
@@ -193,9 +193,9 @@ Refer the lists below all the asynchronous api's and their corresponding GET api
 
 -------------------------------------------------------------------------------------------------------
 
-**Asynchronous API:** [POST /agreements](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/createAgreement)
+**Asynchronous API:** [POST /agreements](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/createAgreement)
 
-**GET API To Poll:** [GET /agreements/{agreementId}/signingUrls](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getSigningUrl)</span>
+**GET API To Poll:** [GET /agreements/{agreementId}/signingUrls](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/getSigningUrl)</span>
 
 **GET Response Body:**
 {
@@ -209,9 +209,9 @@ Refer the lists below all the asynchronous api's and their corresponding GET api
 
 -------------------------------------------------------------------------------------------------------
 
-**Asynchronous API:** [PUT /agreements/{agreementId}/state](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/updateAgreementState)
+**Asynchronous API:** [PUT /agreements/{agreementId}/state](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/updateAgreementState)
 
-**GET API To Poll:** [GET /agreements/{agreementId}](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo)
+**GET API To Poll:** [GET /agreements/{agreementId}](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo)
 
 **GET Response Body:**
 {
@@ -225,9 +225,9 @@ Refer the lists below all the asynchronous api's and their corresponding GET api
 
 -------------------------------------------------------------------------------------------------------
 
-**Asynchronous API:** [POST /widgets](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/createWidget)</span>
+**Asynchronous API:** [POST /widgets](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/widgets/createWidget)</span>
 
-**GET API To Poll:** [GET /widgets/{widgetId}](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgetInfo)
+**GET API To Poll:** [GET /widgets/{widgetId}](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/widgets/getWidgetInfo)
 
 **GET Response Body:**
 {
@@ -241,9 +241,9 @@ Refer the lists below all the asynchronous api's and their corresponding GET api
 
 -------------------------------------------------------------------------------------------------------
 
-**Asynchronous API:** [PUT /widgets/{widgetId}/state](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/updateWidgetState)</span>
+**Asynchronous API:** [PUT /widgets/{widgetId}/state](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/widgets/updateWidgetState)</span>
 
-**GET API To Poll:**: [GET /widgets/{widgetId}](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgetInfo)
+**GET API To Poll:**: [GET /widgets/{widgetId}](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/widgets/getWidgetInfo)
 
 **GET Response Body:**
 {
@@ -257,9 +257,9 @@ Refer the lists below all the asynchronous api's and their corresponding GET api
 
 -------------------------------------------------------------------------------------------------------
 
-**Asynchronous API:** [POST /megaSigns](https://secure.na1.echosign.com/public/docs/restapi/v6#!/megaSigns/createMegaSign)
+**Asynchronous API:** [POST /megaSigns](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/megaSigns/createMegaSign)
 
-**GET API To Poll:** [GET /megaSigns/{megaSignId}/agreements](https://secure.na1.echosign.com/public/docs/restapi/v6#!/megaSigns/getMegaSignChildAgreements)
+**GET API To Poll:** [GET /megaSigns/{megaSignId}/agreements](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/megaSigns/getMegaSignChildAgreements)
 
 **GET Response Body:**
 {
@@ -282,7 +282,7 @@ Refer the lists below all the asynchronous api's and their corresponding GET api
 
 #### Hosted Signing 
 
-One of the common workflows used by Adobe Sign clients is to create an agreement and get the corresponding signing url. Since, the agreement creation is asynchronous the clients needs to poll on [GET /agreements/{agreementId}/signingUrls](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getSigningUrl) for fetching signing url. The sample code below implements this use case.
+One of the common workflows used by Adobe Sign clients is to create an agreement and get the corresponding signing url. Since, the agreement creation is asynchronous the clients needs to poll on [GET /agreements/{agreementId}/signingUrls](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/getSigningUrl) for fetching signing url. The sample code below implements this use case.
 
 **Polling For Signing Url**
 ```javascript
@@ -363,7 +363,7 @@ getSigningUrlForAsyncAgreementCreation();
 ```
 #### Simple Agreement Creation
 
-Some operations on a newly created agreement like downloading agreement document are not allowed until all the background processes in creating agreement is completed. The [GET /agreements/{agreementId}](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo) API provides the status of the agreement on which the client can poll before performing such operations. Refer the sample code below for more details.
+Some operations on a newly created agreement like downloading agreement document are not allowed until all the background processes in creating agreement is completed. The [GET /agreements/{agreementId}](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/getAgreementInfo) API provides the status of the agreement on which the client can poll before performing such operations. Refer the sample code below for more details.
 
 **Polling For Signing URL**
 ```javascript
@@ -464,7 +464,7 @@ Clients can continue using their older access token, but in the `authorization` 
 
 ### Agreement sharing
 
-This feature enables users associated with an agreement to share the agreement at any point of time through Adobe Sign APIs. This feature brings the agreement sharing capability in Adobe Sign web app and Adobe Sign APIs at par. The  [POST /agreements/{agreementId}/members/share](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/createShareOnAgreement) API exposes the agreement sharing feature.
+This feature enables users associated with an agreement to share the agreement at any point of time through Adobe Sign APIs. This feature brings the agreement sharing capability in Adobe Sign web app and Adobe Sign APIs at par. The  [POST /agreements/{agreementId}/members/share](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/createShareOnAgreement) API exposes the agreement sharing feature.
 
 ### Authoring APIs
 
@@ -472,9 +472,9 @@ The authoring APIs are a set of APIs that allow a user to _author_ the documents
 
 | **Authoring API** | **Functionality** |
 | --- | --- |
-| [POST /agreements/{agreementId}/formFields](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/addTemplateFieldsToAgreement) | Adds forms to an agreement from the given template. The response would contain the information of all the newly added form fields. |
-| [GET /agreements/{agreementId}/formFields](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/getFormFields) | Retrieves all the form fields present in an agreement. |
-| [PUT /agreements/{agreementId}/formFields](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/updateFormFields) | Updates and configures(say location, default value, background, etc.) the present form fields in the agreement documents. |
+| [POST /agreements/{agreementId}/formFields](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/addTemplateFieldsToAgreement) | Adds forms to an agreement from the given template. The response would contain the information of all the newly added form fields. |
+| [GET /agreements/{agreementId}/formFields](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/getFormFields) | Retrieves all the form fields present in an agreement. |
+| [PUT /agreements/{agreementId}/formFields](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/updateFormFields) | Updates and configures(say location, default value, background, etc.) the present form fields in the agreement documents. |
 
 ### Document visibility
 
@@ -579,12 +579,12 @@ The v6 Adobe Sign APIs has endpoints to manage notes in an agreement. Clients ca
 
 | **Notes API** | **Functionality** |
 | --- | --- |
-| [GET /agreements/{agreementId}/me/note](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementNoteForApiUser) | Retrieves the latest note on an agreement for the user. |
-| [PUT /agreements/{agreementId}/me/note](https://secure.echosign.com/public/docs/restapi/v6) | Updates the latest note associated with an agreement. |
-| [GET /libraryDocuments/{libraryDocumentId}/me/note](https://secure.echosign.com/public/docs/restapi/v6#!/libraryDocuments/getLibraryDocumentNoteForApiUser) | Retrieves the latest note on a library template for the user. |
-| [PUT /libraryDocuments/{libraryDocumentId}/me/note](https://secure.echosign.com/public/docs/restapi/v6) | Updates the latest note of a library document for the API user. |  
-| [GET /widgets/{widgetId}/me/note](https://secure.echosign.com/public/docs/restapi/v6#!/widgets/getWidgetNoteForApiUser) | Retrieves the latest note of a widget for the API user. |
-| [PUT /widgets/{widgetId}/me/note](https://secure.echosign.com/public/docs/restapi/v6) | Updates the latest note of a widget for the API user. |
+| [GET /agreements/{agreementId}/me/note](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/getAgreementNoteForApiUser) | Retrieves the latest note on an agreement for the user. |
+| [PUT /agreements/{agreementId}/me/note](https://secure.adobesign.com/public/docs/restapi/v6) | Updates the latest note associated with an agreement. |
+| [GET /libraryDocuments/{libraryDocumentId}/me/note](https://secure.adobesign.com/public/docs/restapi/v6#!/libraryDocuments/getLibraryDocumentNoteForApiUser) | Retrieves the latest note on a library template for the user. |
+| [PUT /libraryDocuments/{libraryDocumentId}/me/note](https://secure.adobesign.com/public/docs/restapi/v6) | Updates the latest note of a library document for the API user. |  
+| [GET /widgets/{widgetId}/me/note](https://secure.adobesign.com/public/docs/restapi/v6#!/widgets/getWidgetNoteForApiUser) | Retrieves the latest note of a widget for the API user. |
+| [PUT /widgets/{widgetId}/me/note](https://secure.adobesign.com/public/docs/restapi/v6) | Updates the latest note of a widget for the API user. |
 
 ### Reminders
 
@@ -592,13 +592,13 @@ The reminder APIs in v6 enable clients to create reminders for _any_ participant
 
 | **Authoring API** | **Functionality** |
 | --- | --- |
-| [POST /agreements/{agreementId}/reminders](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/createReminderOnParticipant) | Sets reminders for a list of participants. |
-| [GET /agreements/{agreementId}/reminders](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementReminders) | Retrieves all the reminders set on an agreement. |
+| [POST /agreements/{agreementId}/reminders](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/createReminderOnParticipant) | Sets reminders for a list of participants. |
+| [GET /agreements/{agreementId}/reminders](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/getAgreementReminders) | Retrieves all the reminders set on an agreement. |
 
 ### Resource views
 
 There are a number of _views_ associated with a resource. For example, an agreement may have an authoring view, agreement documents view, signing page view, or a manage page view with the agreement selected. The availaibility of all these views depends on both the state of the resource and also the relationship of the user with the resource. To access and customize these resource views, the v6 Adobe Sign API includes this endpoint to list all such views in their desired configuration:  
-[POST /resource/{resourceId}/views](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/getAgreementView)
+[POST /resource/{resourceId}/views](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/getAgreementView)
 
 **Sample request/response:**
 
@@ -621,15 +621,15 @@ _Response - POST /agreements/{agreementId}/views_
 [  
     {
         "name": "DOCUMENT",
-        "url": "https://secure.echosign.com/account/agreements?aid=CBJCHBCAABAA0RVdUCYoR5kU9vh4-b4qHhYW_1r10hKw&pid=CBJCHBCAABAAH-F0jK3mHa53G7gr0SiftgdqE-jjwNVq&noChrome=true",
-        "embeddedCode": "<script type='text/javascript' language='JavaScript' src='https://secure.echosign.com/embed/account/agreements?aid=CBJCHBCAABAA0RVdUCYoR5kU9vh4-b4qHhYW_1r10hKw&pid=CBJCHBCAABAAH-F0jK3mHa53G7gr0SiftgdqE-jjwNVq&noChrome=true'></script>"
+        "url": "https://secure.adobesign.com/account/agreements?aid=CBJCHBCAABAA0RVdUCYoR5kU9vh4-b4qHhYW_1r10hKw&pid=CBJCHBCAABAAH-F0jK3mHa53G7gr0SiftgdqE-jjwNVq&noChrome=true",
+        "embeddedCode": "<script type='text/javascript' language='JavaScript' src='https://secure.adobesign.com/embed/account/agreements?aid=CBJCHBCAABAA0RVdUCYoR5kU9vh4-b4qHhYW_1r10hKw&pid=CBJCHBCAABAAH-F0jK3mHa53G7gr0SiftgdqE-jjwNVq&noChrome=true'></script>"
     }
 ]
 ```
 
 ### Resource visibility
 
-The agreement visibility feature enables a client to control which resources are included in the response body of the enumeration/reource listing APIs like `GET /agreements`. This helps users to hide all resources from their view that they don&rsquo;t want to focus on. The  [PUT /resource/{resourceId}/me/visibility](https://secure.echosign.com/public/docs/restapi/v6#!/agreements/updateAgreementVisibility) API exposes this functionality, wherein a resource can be an agreement, widget, template or megasign in Adobe Sign.
+The agreement visibility feature enables a client to control which resources are included in the response body of the enumeration/reource listing APIs like `GET /agreements`. This helps users to hide all resources from their view that they don&rsquo;t want to focus on. The  [PUT /resource/{resourceId}/me/visibility](https://secure.adobesign.com/public/docs/restapi/v6#!/agreements/updateAgreementVisibility) API exposes this functionality, wherein a resource can be an agreement, widget, template or megasign in Adobe Sign.
 
 ### Suppress email
 
