@@ -6,12 +6,10 @@ Adobe Sign uses the OAuth authentication protocol to authorize requests for any 
 
 1. [Log in to Adobe Sign](https://secure.adobesign.com/public/login).
 
-2.  Select **API** from the top menu.  
+2.  Select **Account** from the top menu.  
 
     ![Selecting API access](../img/sign_gstarted_1.png) 
     
-    If you are already an Enterprise customer, you may not see the API link. In that case, click Account to proceed.
-
 3. Select **API Applications.**  
 
     ![Selecting API Applications](../img/sign_gstarted_2.png)  
