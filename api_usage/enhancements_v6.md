@@ -18,7 +18,6 @@
     - [Reminders](#reminders)
     - [Resource view](#resource-view)
     - [Resource visibility](#resource-visibility)
-    - [Stamp support](#stamp-support)
     - [Suppress email](#suppress-email)
     - [Webhooks](#webhooks)
 - [API change log](api_change_log.md)
