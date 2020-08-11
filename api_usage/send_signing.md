@@ -9,8 +9,8 @@ While getting the authorization code from the Adobe Sign service, you also got t
 ```http
 https://myserver.com/?  
     code=CBNCKBAThIsIsNoTaReAlcs_sL4K32wCzs4N&
-    api_access_point=https://api.na1.echosign.com/&
-    web_access_point=https://secure.na1.echosign.com/
+    api_access_point=https://api.na1.adobesign.com/&
+    web_access_point=https://secure.na1.adobesign.com/
 ```
 
 For all future service calls, we will be sending the requests to this access point.
@@ -20,7 +20,7 @@ To upload a PDF document for signing, send a POST request to the `transientDocum
 
 ```http
 POST /api/rest/v6/transientDocuments HTTP/1.1
-Host: api.na1.echosign.com
+Host: api.na1.adobesign.com
 Authorization: Bearer MvyABjNotARealTokenHkYyi
 Content-Type: multipart/form-data
 Content-Disposition: form-data; name=";File"; filename="MyPDF.pdf"
@@ -40,7 +40,7 @@ The document uploaded through this call is termed as a _transient document_ sinc
 
 You can only upload one file at a time through this request.
 
-[TRY IT OUT](https://secure.na1.echosign.com/public/docs/restapi/v6#!/transientDocuments/createTransientDocument)
+[TRY IT OUT](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/transientDocuments/createTransientDocument)
 
 ## Send the document
 Once you have uploaded the document, send the document to all the related parties for signing. For this to happen, you need to create an _agreement._
@@ -49,7 +49,7 @@ For creating an agreement, send a POST request to the `/agreements` endpoint wit
 
 ```json
 POST /api/rest/v6/agreements HTTP/1.1
-Host: api.na1.echosign.com
+Host: api.na1.adobesign.com
 Authorization: Bearer 3AAABLblNOTREALTOKENLDaV
 Content-Type: application/json
 
@@ -93,4 +93,4 @@ You will get the following response containing the `id`:
 
 The returned `agreementId` must be used to refer to the agreement in all subsequent API calls. This ID must be used to retrieve up-to-date status of the agreement, either by polling or when Adobe Sign notifies your application of any status change.
 
-[TRY IT OUT](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/) 
+[TRY IT OUT](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/) 
