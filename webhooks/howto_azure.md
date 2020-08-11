@@ -3,11 +3,11 @@
 ## On this page
 
 - [Prerequisites](#prerequisites)
-- [Steps to create an Azure Functions Trigger that serves as an Adobe Sign Webhook](#stepstocreateanazurefunctionstriggerthatservesasanadobesignwebhook)
-    - [Create a JavaScript HttpTrigger function](#createajavascripthttptriggerfunction)
-    - [Add logic to register your Adobe Sign webhook](#addlogictoregisteryouradobesignwebhook)
-- [Ready to use](#Readytouse)
-- [Get the function&rsquo;URL](#getthefunctionsurl)
+- [Steps to create an Azure Functions Trigger that serves as an Adobe Sign Webhook](#steps-to-create-an-azure-functions-trigger-that-serves-as-an-adobe-sign-webhook)
+    - [Create a JavaScript HttpTrigger function](#create-a-java-script-httptrigger-function)
+    - [Add logic to register your Adobe Sign webhook](#add-logic-to-register-your-adobe-sign-webhook)
+- [Ready to use](#Ready-to-use)
+- [Get the function URL](#get-the-functions-url)
 
 Azure Functions is Microsoft’s serverless computing cloud platform. Using Azure Functions, you can write functional code and host it in the Azure cloud, ready to execute on demand. This always-on functionality, combined with the ease of management offered by cloud-based serverless architecture, makes Azure Functions a viable alternative for hosting your Adobe Sign webhooks.
 
