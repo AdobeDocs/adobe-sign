@@ -4,7 +4,7 @@ To create a widget through the API, you must first call /transientDocuments, the
 
 ```http
 POST /api/rest/v6/widgets HTTP/1.1
-Host: api.na1.echosign.com
+Host: api.na1.adobesign.com
 Authorization: Bearer 3AAABLblqZNotRelaTOKEN
 Content-Type: application/json
 {
@@ -31,7 +31,7 @@ Now, the Widget URL can be circulated to the parents for signing. At any time, t
 
 ```http
 GET /api/rest/v6/widgets/3AAANotTheRealID6o HTTP/1.1
-Host: api.na1.echosign.com
+Host: api.na1.adobesign.com
 ```
 
 You will get a JSON response containing details about the widget, including participants&rsquo; information and status.
@@ -40,4 +40,4 @@ You can also send a GET request to `/widgets/{widgetId}/formData` to retrieve th
 
 Each time a widget is signed by a person, a separate instance of a document gets created. To get the agreements created using the widget, call `/widgets/{widgetID}/agreements` GET where _widgetID_ is the key returned by the service while creating the widget. To retrieve the data filled by the users at the time of signing the widget, call `GET /widgets/{widgetID}/formData`. The service returns data in comma-separated value (CSV) file format. The first line includes the column header names, and each row represents a distinct instance of the widget.
 
-[TRY IT OUT](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/)
+[TRY IT OUT](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/widgets/)
