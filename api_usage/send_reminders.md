@@ -6,7 +6,7 @@ A signing reminder can be sent to all the signers if they have not signed the ag
 
 ```http
 POST /api/rest/v6/agreements/{agreementId}/reminders HTTP/1.1
-Host: api.na1.echosign.com
+Host: api.na1.adobesign.com
 Authorization: Bearer 3AAABLblNOTREALTOKENLDaV
 Content-Type: application/json
 {
@@ -26,5 +26,5 @@ Note that you need to provide the `agreementId` in the request URL. You will get
 }
 ```
 
-[TRY IT OUT](https://secure.na1.echosign.com/public/docs/restapi/v6#!/agreements/createReminderOnParticipant)
+[TRY IT OUT](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/createReminderOnParticipant)
 
