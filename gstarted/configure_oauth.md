@@ -28,7 +28,7 @@ Now you are all set to invoke the Sign APIs from your client-side apps. Note tha
 
 The OAuth process requires users of your apps to grant permissions before invoking any API.
 
-**IMPORTANT:**  Before you begin using the Sign APIs, read  [Using OAuth to Access Adobe Sign APIs](https://secure.na1.echosign.com/public/static/oauthDoc.jsp).
+**IMPORTANT:**  Before you begin using the Sign APIs, read  [Using OAuth to Access Adobe Sign APIs](https://secure.na1.adobesign.com/public/static/oauthDoc.jsp).
 
 Next: [Get an access token](get_access_token.md)
 
