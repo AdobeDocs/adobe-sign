@@ -16,7 +16,7 @@
     - [Draft](#draft)
     - [Notes management](#notes-management)
     - [Reminders](#reminders)
-    - [Resource view](#resource-view)
+    - [Resource views](#resource-views)
     - [Resource visibility](#resource-visibility)
     - [Suppress email](#suppress-email)
     - [Webhooks](#webhooks)
