@@ -6,7 +6,7 @@
     - [Pagination support ](#pagination-support)
     - [Constant IDs](#constant-ids)
     - [ETag support](#etag-support)
-    - [GET, PUT, POST consistency](#get,-put,-post,-consistency)
+    - [GET, PUT, POST consistency](#get-put-post-consistency)
     - [Performance improvements](#performance-improvements)
     - [Authorization header](#authorization-header)
 - [Features](#features)
