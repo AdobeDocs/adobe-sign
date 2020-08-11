@@ -18,7 +18,7 @@ The school does the following:
 
 You can create a signable web form (Widget) by uploading any standard document and adding fields using the drag-and-drop interface provided by Adobe Sign. You can also upload an existing PDF form with its fields, or insert text tags into a document which Adobe Sign will automatically turn into form fields. You can do all of these through the Sign APIs.
 
-Before you begin creating a Widget, learn to [upload a document for signing](./api_uasge/send_signing.md).
+Before you begin creating a Widget, learn to [upload a document for signing](../api_uasge/send_signing.md).
 
 ## **Creating a Widget**
 
