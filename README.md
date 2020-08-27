@@ -6,7 +6,7 @@ As a developer, you can build a variety of integrations with Adobe Sign using ju
 
 You can also incorporate the functionality of Adobe Sign into any external applications by embedding the Adobe Sign UI within those applications. External applications can also receive status updates in real time for transactions initiated using Adobe Sign. These external applications can retrieve and store copies of the signed agreements.
 
-The Adobe Sign APIs can be used to:
+Use the Adobe Sign APIs to:
 
 - Create and manage agreements
 - Retrieve signed documents
