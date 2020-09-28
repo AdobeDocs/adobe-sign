@@ -309,6 +309,8 @@ Specify the new `groupId` in the request.
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [**createPersonalEmbeddedWidget**]( https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | [/widgets/{widgetId/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgetView) |   
+
+Use PersonalizedSigningViewConfiguration for specifying personalization options
  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -324,6 +326,8 @@ Specify the new `groupId` in the request.
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
 | [**createPersonalUrlWidget**]( https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) |  [/widgets/{widgetId/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgetView) | 
+
+Use PersonalizedSigningViewConfiguration for specifying personalization options
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
