@@ -308,7 +308,7 @@ Specify the new `groupId` in the request.
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createPersonalEmbeddedWidget**]( https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | **v5 REST Only** [/widgets/{widgetId}/personalize, PUT](https://secure.na1.adobesign.com/public/docs/restapi/v5#!/widgets/updateWidgetPersonalize) |   
+| [**createPersonalEmbeddedWidget**]( https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createPersonalEmbeddedWidget) | [/widgets/{widgetId/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgetView) |   
  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -323,7 +323,7 @@ Specify the new `groupId` in the request.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createPersonalUrlWidget**]( https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) |  **v5 REST Only** [/widgets/{widgetId}/personalize, PUT](https://secure.na1.adobesign.com/public/docs/restapi/v5#!/widgets/updateWidgetPersonalize) | 
+| [**createPersonalUrlWidget**]( https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createPersonalUrlWidget) |  [/widgets/{widgetId/views, POST](https://secure.na1.echosign.com/public/docs/restapi/v6#!/widgets/getWidgetView) | 
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
