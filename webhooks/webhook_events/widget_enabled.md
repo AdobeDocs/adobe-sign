@@ -1,8 +1,8 @@
-# Payload: WIDGET\_ENABLED
+# Payload: WIDGET_ENABLED
 
 ## Payload attributes
 
-### Event-specific: 
+### Event-specific:
 
 <table>
   <thead>
@@ -106,7 +106,7 @@
     <tr>
       <td><code>locale</code></td>
       <td>String</td>
-      <td>Locale associated with this widget: specifies the language for the signing page and emails; for example <code>en_US</code> or <code>fr_FR</code>. If none is specified, this defaults to the language configured for the widget creator.<br></td>
+      <td>Locale associated with this widget: specifies the language for the signing page and emails; for example <code>en_US</code> or <code>fr_FR</code>. If none is specified, this defaults to the language configured for the widget creator.<br/></td>
       <td>&nbsp;</td>
     </tr>
     <tr>
@@ -144,103 +144,103 @@
 ## Payload template
 
 ```json
-{  
-   "webhookId":"",
-   "webhookName":"",
-   "webhookNotificationId":"",
-   "webhookUrlInfo":{  
-      "url":""
-   },
-   "webhookScope":"",
-   "webhookNotificationApplicableUsers" :[  
-    {  
-      "id":"", 
-      "email":"", 
-      "role":"", 
-      "payloadApplicable":"" 
-     } 
-   ], 
-   "event":"",
-   "subEvent":"",
-   "eventDate":"", 
-   "eventResourceType":"",
-   "participantUserId":"",
-   "participantUserEmail":"",
-   "actingUserId":"",
-   "actingUserEmail":"",
-   "actingUserIpAddress":"", 
-   "initiatingUserId":"",
-   "initiatingUserEmail":"",
-   "widget":{  
-      "name":"",
-      "status":"",
-      "id":"",
-      "authFailureInfo":{  
-         "url":"",
-         "deframe":"",
-         "delay":""
-      },
-      "ccs":[  
-         {  
-            "email":""
-         }
-      ],
-      "completionInfo":{  
-         "url":"",
-         "deframe":"",
-         "delay":""
-      },
-      "creatorEmail":"",
-      "createdDate":"",
-      "locale":"",
-      "vaultingInfo":{  
-         "enabled":""
-      },
-      "participantSetsInfo":{  
-         "additionalParticipantSets":[  
-            {  
-               "memberInfos":[  
-                  {  
-                     "id":"",
-                     "email":"",
-                     "company":"",
-                     "name":"",
-                     "privateMessage":"",
-                     "status":""
-                  }
-               ],
-               "order":"",
-               "role":"",
-               "id":""
-            }
-         ],
-         "widgetParticipantSet":{  
-            "memberInfos":[  
-               {  
-                  "id":"",
-                  "email":"",
-                  "company":"",
-                  "name":"",
-                  "privateMessage":"",
-                  "status":""
-               }
-            ],
-            "order":"",
-            "role":"",
-            "id":""
-         }
-      },
-      "documentsInfo":{  
-         "documents":[  
-            {  
-               "id":"",
-               "label":"",
-               "numPages":"",
-               "mimeType":"",
-               "name":""
-            }
-         ]
+{
+  "webhookId": "",
+  "webhookName": "",
+  "webhookNotificationId": "",
+  "webhookUrlInfo": {
+    "url": ""
+  },
+  "webhookScope": "",
+  "webhookNotificationApplicableUsers": [
+    {
+      "id": "",
+      "email": "",
+      "role": "",
+      "payloadApplicable": ""
+    }
+  ],
+  "event": "",
+  "subEvent": "",
+  "eventDate": "",
+  "eventResourceType": "",
+  "participantUserId": "",
+  "participantUserEmail": "",
+  "actingUserId": "",
+  "actingUserEmail": "",
+  "actingUserIpAddress": "",
+  "initiatingUserId": "",
+  "initiatingUserEmail": "",
+  "widget": {
+    "name": "",
+    "status": "",
+    "id": "",
+    "authFailureInfo": {
+      "url": "",
+      "deframe": "",
+      "delay": ""
+    },
+    "ccs": [
+      {
+        "email": ""
       }
-   }
+    ],
+    "completionInfo": {
+      "url": "",
+      "deframe": "",
+      "delay": ""
+    },
+    "creatorEmail": "",
+    "createdDate": "",
+    "locale": "",
+    "vaultingInfo": {
+      "enabled": ""
+    },
+    "participantSetsInfo": {
+      "additionalParticipantSets": [
+        {
+          "memberInfos": [
+            {
+              "id": "",
+              "email": "",
+              "company": "",
+              "name": "",
+              "privateMessage": "",
+              "status": ""
+            }
+          ],
+          "order": "",
+          "role": "",
+          "id": ""
+        }
+      ],
+      "widgetParticipantSet": {
+        "memberInfos": [
+          {
+            "id": "",
+            "email": "",
+            "company": "",
+            "name": "",
+            "privateMessage": "",
+            "status": ""
+          }
+        ],
+        "order": "",
+        "role": "",
+        "id": ""
+      }
+    },
+    "documentsInfo": {
+      "documents": [
+        {
+          "id": "",
+          "label": "",
+          "numPages": "",
+          "mimeType": "",
+          "name": ""
+        }
+      ]
+    }
+  }
 }
 ```
