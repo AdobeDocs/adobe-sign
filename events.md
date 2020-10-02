@@ -54,10 +54,10 @@ The following table lists the Adobe Sign supported UI events that can be embedde
          <td><strong>'PAGE_LOAD'</strong></td>
          <td>
             <ul>
-               <li>pageName: 'AUTHORING'<br></li>
+               <li>pageName: 'AUTHORING'<br /></li>
             </ul>
          </td>
-         <td>This event fires when the form-field authoring page loads for an agreement.<br></td>
+         <td>This event fires when the form-field authoring page loads for an agreement.<br /></td>
       </tr>
       <tr>
          <td>'PAGE_LOAD'</strong></td>
