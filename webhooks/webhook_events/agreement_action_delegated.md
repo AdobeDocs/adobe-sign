@@ -1,4 +1,4 @@
-# Payload: AGREEMENT\_ACTION\_DELEGATED
+# Payload: AGREEMENT_ACTION_DELEGATED
 
 ## Payload attributes
 
@@ -83,7 +83,7 @@
     <tr>
       <td><code>signatureType</code></td>
       <td>Enum</td>
-      <td>Specifies the type of signature requested on the agreement&mdash;written or e-signature.<br></td>
+      <td>Specifies the type of signature requested on the agreement&mdash;written or e-signature.<br/></td>
       <td><code>ESIGN</code>, <code>WRITTEN</code></td>
     </tr>
     <tr>
@@ -190,7 +190,7 @@
       </tr>
     <tr>
       <td><code>documentsInfo</code></td>
-      <td>Object<br></td>
+      <td>Object<br/></td>
       <td>Returns the IDs of the documents of an agreement. Returned only if the conditional parameter <code>includeDocumentsInfo</code> is set to true and payload size is less than the threshold.</td>
       <td>&nbsp;</td>
     </tr>
@@ -212,141 +212,139 @@
 ## Payload template
 
 ```json
-{  
-   "webhookId":"",
-   "webhookName":"",
-   "webhookNotificationId":"",
-   "webhookUrlInfo":{  
-      "url":""
-   },
-   "webhookScope":"",
-   "webhookNotificationApplicableUsers":[  
-    {  
-      "id":"", 
-      "email":"", 
-      "role":"", 
-        "payloadApplicable":"" 
-      } 
-    ],
-   "event":"",
-   "subEvent":"",
-   "eventDate":"", 
-   "eventResourceType":"",
-   "eventResourceParentType":"",
-   "eventResourceParentId":"", 
-   "participantRole":"",
-   "actionType":"",
-   "participantUserId":"",
-   "participantUserEmail":"",
-   "actingUserId":"",
-   "actingUserEmail":"",
-   "actingUserIpAddress":"",
-   "initiatingUserId":"",
-   "initiatingUserEmail":"",
-   "agreement":{  
-      "id":"",
-      "name":"",
-      "signatureType":"",
-      "status":"",
-      "ccs":[  
-         {  
-            "email":"",
-            "label":"",
-            "visiblePages":[  
-               ""
-            ]
-         }
-      ],
-      "deviceInfo":{  
-         "applicationDescription":"",
-         "deviceDescription":"",
-         "location":{  
-            "latitude":"",
-            "longitude":""
-         },
-         "deviceTime":""
-      },
-      "documentVisibilityEnabled":"",
-      "createdDate":"",
-      "expirationTime":"",
-      "externalId":{  
-         "id":""
-      },
-      "postSignOption":{  
-         "redirectDelay":"",
-         "redirectUrl":""
-      },
-      "firstReminderDelay":"",
-      "locale":"",
-      "message":"",
-      "reminderFrequency":"",
-      "senderEmail":"",
-      "vaultingInfo":{  
-         "enabled":""
-      },
-      "workflowId":"",
-      "participantSetsInfo":{  
-         "participantSets":[  
-            {  
-               "memberInfos":[  
-                  {  
-                     "id":"",
-                     "email":"",
-                     "company":"",
-                     "name":"",
-                     "privateMessage":"",
-                     "status":""
-                  }
-               ],
-               "order":"",
-               "role":"",
-               "status":"",
-               "id":"",
-               "name":"",
-               "privateMessage":""
-            }
-         ],
-         "nextParticipantSets":[  
-            {  
-               "memberInfos":[  
-                  {  
-                     "id":"",
-                     "email":"",
-                     "company":"",
-                     "name":"",
-                     "privateMessage":"",
-                     "status":""
-                  }
-               ],
-               "order":"",
-               "role":"",
-               "status":"",
-               "id":"",
-               "name":"",
-               "privateMessage":""
-            }
-         ]
-      },
-      "documentsInfo":{  
-         "documents":[  
-            {  
-               "id":"",
-               "label":"",
-               "numPages":"",
-               "mimeType":"",
-               "name":""
-            }
-         ],
-         "supportingDocuments":[  
-            {  
-               "displayLabel":"",
-               "fieldName":"",
-               "id":"",
-               "mimeType":"",
-               "numPages":""
-            }
-         ]
+{
+  "webhookId": "",
+  "webhookName": "",
+  "webhookNotificationId": "",
+  "webhookUrlInfo": {
+    "url": ""
+  },
+  "webhookScope": "",
+  "webhookNotificationApplicableUsers": [
+    {
+      "id": "",
+      "email": "",
+      "role": "",
+      "payloadApplicable": ""
+    }
+  ],
+  "event": "",
+  "subEvent": "",
+  "eventDate": "",
+  "eventResourceType": "",
+  "eventResourceParentType": "",
+  "eventResourceParentId": "",
+  "participantRole": "",
+  "actionType": "",
+  "participantUserId": "",
+  "participantUserEmail": "",
+  "actingUserId": "",
+  "actingUserEmail": "",
+  "actingUserIpAddress": "",
+  "initiatingUserId": "",
+  "initiatingUserEmail": "",
+  "agreement": {
+    "id": "",
+    "name": "",
+    "signatureType": "",
+    "status": "",
+    "ccs": [
+      {
+        "email": "",
+        "label": "",
+        "visiblePages": [""]
       }
-   }
+    ],
+    "deviceInfo": {
+      "applicationDescription": "",
+      "deviceDescription": "",
+      "location": {
+        "latitude": "",
+        "longitude": ""
+      },
+      "deviceTime": ""
+    },
+    "documentVisibilityEnabled": "",
+    "createdDate": "",
+    "expirationTime": "",
+    "externalId": {
+      "id": ""
+    },
+    "postSignOption": {
+      "redirectDelay": "",
+      "redirectUrl": ""
+    },
+    "firstReminderDelay": "",
+    "locale": "",
+    "message": "",
+    "reminderFrequency": "",
+    "senderEmail": "",
+    "vaultingInfo": {
+      "enabled": ""
+    },
+    "workflowId": "",
+    "participantSetsInfo": {
+      "participantSets": [
+        {
+          "memberInfos": [
+            {
+              "id": "",
+              "email": "",
+              "company": "",
+              "name": "",
+              "privateMessage": "",
+              "status": ""
+            }
+          ],
+          "order": "",
+          "role": "",
+          "status": "",
+          "id": "",
+          "name": "",
+          "privateMessage": ""
+        }
+      ],
+      "nextParticipantSets": [
+        {
+          "memberInfos": [
+            {
+              "id": "",
+              "email": "",
+              "company": "",
+              "name": "",
+              "privateMessage": "",
+              "status": ""
+            }
+          ],
+          "order": "",
+          "role": "",
+          "status": "",
+          "id": "",
+          "name": "",
+          "privateMessage": ""
+        }
+      ]
+    },
+    "documentsInfo": {
+      "documents": [
+        {
+          "id": "",
+          "label": "",
+          "numPages": "",
+          "mimeType": "",
+          "name": ""
+        }
+      ],
+      "supportingDocuments": [
+        {
+          "displayLabel": "",
+          "fieldName": "",
+          "id": "",
+          "mimeType": "",
+          "numPages": ""
+        }
+      ]
+    }
+  }
 }
 ```

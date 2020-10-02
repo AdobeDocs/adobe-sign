@@ -6,7 +6,7 @@ This page provides a guide to all the events supported by Adobe Sign.
 
 ## **System requirements**
 
-To use the event framework within Adobe Sign, you need a browser that supports `postMessage`. See  [this page](https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage) to get a list of all supported browsers.
+To use the event framework within Adobe Sign, you need a browser that supports `postMessage`. See [this page](https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage) to get a list of all supported browsers.
 
 ## **Supported events**
 
@@ -14,11 +14,11 @@ The following table lists the Adobe Sign supported UI events that can be embedde
 
 ### **Workflow events**
 
-| **Event Type** | **Data** | **Description** |
-| --- | --- | --- |
-| `ESIGN` | NONE | This event gets fired after a user has successfully signed an agreement. |
-| `REJECT` | NONE | This event is fired after a user rejects an agreement. |
-| `PREFILL` | NONE | This event is fired after a user completes prefilling an agreement and sends it. |
+| **Event Type** | **Data** | **Description**                                                                  |
+| -------------- | -------- | -------------------------------------------------------------------------------- |
+| `ESIGN`        | NONE     | This event gets fired after a user has successfully signed an agreement.         |
+| `REJECT`       | NONE     | This event is fired after a user rejects an agreement.                           |
+| `PREFILL`      | NONE     | This event is fired after a user completes prefilling an agreement and sends it. |
 
 ### **Page Load events**
 
@@ -54,10 +54,10 @@ The following table lists the Adobe Sign supported UI events that can be embedde
          <td><strong>'PAGE_LOAD'</strong></td>
          <td>
             <ul>
-               <li>pageName: 'AUTHORING'<br></li>
+               <li>pageName: 'AUTHORING'<br/></li>
             </ul>
          </td>
-         <td>This event fires when the form-field authoring page loads for an agreement.<br></td>
+         <td>This event fires when the form-field authoring page loads for an agreement.<br/></td>
       </tr>
       <tr>
          <td>'PAGE_LOAD'</strong></td>
