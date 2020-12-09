@@ -24,7 +24,5 @@ Retry-After: <wait_time_in_seconds>
 <wait_time_in_seconds> is the minimum time in seconds the client must wait until it can make the next request. 
 When the *retryAfter* timer expires, the client's resource count is reset to 0 for the over-limit threshold. Therefore, the client can send the request again and it should go through without being blocked.
 
-**NOTE: The *retryAfter* time will be available in March 2020**
-
 ## Steps to take when throttled
 It is recommended that developers design workflows that can handle the Http 429 exceptions gracefully and use the retry-time from either the response body or from the "Retry-After" header to recover from such errors.
