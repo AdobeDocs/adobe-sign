@@ -94,3 +94,8 @@ You will get the following response containing the `id`:
 The returned `agreementId` must be used to refer to the agreement in all subsequent API calls. This ID must be used to retrieve up-to-date status of the agreement, either by polling or when Adobe Sign notifies your application of any status change.
 
 [TRY IT OUT](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/agreements/) 
+
+## Note about external IDs
+The agreements API allows for an arbitrary external ID string to be included, which can be used to contain a reference to the document, such as a case or customer number from the sender's system.  This field is for the benefit of the creator and perhaps other participants in the creator's organization. 
+
+However, this field is exposed to recipients outside of the customer's organization as well. Creators should be aware of this value and be cautious not to expose confidential or personal information when using this option.
