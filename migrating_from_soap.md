@@ -184,7 +184,7 @@ Returns a CSV file stream.
 ## User Methods:
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createUser**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService19#createUser) | **v5 REST Only** [/users, POST](https://secure.na1.adobesign.com/public/docs/restapi/v5#!/users/createUser) |   
+| [**createUser**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService19#createUser) | [/users, POST](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/users/createUser) |   
  
 &nbsp; 
 | **SOAP Endpoint** | **REST Endpoint**  |
@@ -264,17 +264,17 @@ Get all child agreement IDs of the parent MegaSign.
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**createGroup**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createGroup) | **v5 REST Only** [/groups, POST](https://secure.na1.adobesign.com/public/docs/restapi/v5#!/groups/createGroup) |   
+| [**createGroup**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#createGroup) | [/groups, POST](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/groups/createGroup) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**deleteGroup**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#deleteGroup) | **v5 REST Only** [/groups/groupId, DELETE](https://secure.na1.adobesign.com/public/docs/restapi/v5#!/groups/deleteGroup) |   
+| [**deleteGroup**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#deleteGroup) | [/groups/groupId, DELETE](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/groups/deleteGroup) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
 | :---    |  :----   |
-| [**renameGroup**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#renameGroup) | **v5 REST Only** [/groups/{groupId}, PUT](https://secure.na1.adobesign.com/public/docs/restapi/v5#!/groups/modifyGroup) |   
+| [**renameGroup**](https://secure.na1.adobesign.com/public/docs/EchoSignDocumentService22#renameGroup) | [/groups/{groupId}, PUT](https://secure.na1.adobesign.com/public/docs/restapi/v6#!/groups/modifyGroup) |   
  
 &nbsp;  
 | **SOAP Endpoint** | **REST Endpoint**  |
