@@ -1,3 +1,4 @@
+ **NOTE**: This content is deprecated. Please use https://opensource.adobe.com/dc-acrobat-sdk-docs/adobesignsdk/index.html
 # Terminology
 
 **Transient document**  
