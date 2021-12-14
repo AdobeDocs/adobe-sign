@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Send an Agreement Using a Transient Document
 
 This sample client demonstrates how to send an agreement using a transient document ID. See the postTransientDocument method in the file /util/RestApiAgreements.java for a definition of transient documents.

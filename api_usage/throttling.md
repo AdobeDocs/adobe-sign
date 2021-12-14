@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Overview
 To prevent your API from being overwhelmed by too many requests, Adobe throttles requests to your API. 
 

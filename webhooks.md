@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Webhooks in Adobe Sign v6
 
 ## On this page

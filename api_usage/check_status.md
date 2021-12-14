@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Check the Status
 
 Adobe Sign can return the current status of the agreement and a complete history of events that have happened on that particular agreement. The simplest mechanism is for your application to provide a webhook URL when sending the document for signature. Adobe Sign will then ping your webhook with the appropriate [webhook event](../webhooks/webhook_events.md) whenever the status of the agreement changes.

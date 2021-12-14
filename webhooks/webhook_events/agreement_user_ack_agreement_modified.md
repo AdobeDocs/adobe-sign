@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Payload: AGREEMENT\_USER\_ACK\_AGREEMENT\_MODIFIED
 
 ## Payload attributes

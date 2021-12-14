@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Parental Consent
 
 ![parental consent](../img/sign_scenarios_1.png)

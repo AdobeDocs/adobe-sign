@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Scenarios
 
 The [API Usage](api_usage.md) section has a list of simple tasks that can be performed using the Sign APIs. However, you can also use the APIs in other simple to complex signing scenarios as mentioned in this guide.

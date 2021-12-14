@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Using AWS Lambda Functions to Create an Adobe Sign Webhook
 
 ## On this page

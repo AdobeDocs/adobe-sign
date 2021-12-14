@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # API Change Log
 
 Adobe Sign version 6 includes many changes to the API model. 

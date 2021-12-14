@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Get the Signing URL
  
 When the agreement is ready for signing, invoke `GET /agreements/{agreementId}/signingUrls` to get the signing URL:

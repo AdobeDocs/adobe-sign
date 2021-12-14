@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Get an Agreement’s Status
 
 This sample client demonstrates how to to get status of all agreements of an account and display their agreement ID, name and status.

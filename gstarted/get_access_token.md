@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Get the Access Token
 
 To invoke the Sign APIs, your application must first get an OAuth access token on behalf of an Adobe Sign user. This process uses HTTP requests to obtain the token.

@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Create an Application
 
 To use Adobe Sign APIs, you need to first create an application.

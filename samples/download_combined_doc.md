@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Download the Combined Document for an Agreement
 
 This sample client demonstrates how to to download the combined document for the specified agreement.

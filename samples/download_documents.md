@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Download Documents from an Agreement
 
 This sample client demonstrates how to to download documents from a specified agreement.

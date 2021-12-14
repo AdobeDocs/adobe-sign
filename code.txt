@@ -1,0 +1,16 @@
+GOTO :EOF
+
+==================
+
+@ECHO OFF
+SETLOCAL
+SET "sourcedir=U:\sourcedir"
+PUSHD "%sourcedir%"
+FOR /f "delims=" %%a IN (
+ 'dir /b /s /a-d *.md *.html '
+ ) DO (
+ IF /i "%%~xa"==".md" (
+  IF NOT EXIST "%%~dpna.html" ECHO pandoc "%%a" -f markdown -t html -o "%%~dpna.html"
+ ) 
+)
+popd

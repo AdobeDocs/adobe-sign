@@ -1,4 +1,5 @@
- **NOTE**: This content is deprecated. Please use https://opensource.adobe.com/dc-acrobat-sdk-docs/adobesignsdk/index.html
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # A Simple Workflow
 
 ![A simple workflow: overview](../img/sign_overview_2.png)

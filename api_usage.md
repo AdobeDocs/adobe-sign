@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # API Usage: Developer Guide
 
 The Adobe Sign API allows you to quickly build client-side applications that can utilize the signing functionalities offered by Adobe Sign. This guide contains the most common scenarios in which you can use the API.

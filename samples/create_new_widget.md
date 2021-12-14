@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Create a New Widget with Countersigners
 
 This sample client demonstrates how to create a new widget.

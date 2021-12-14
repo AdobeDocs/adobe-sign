@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Send an Agreement Using a Library Document
 
 This sample client demonstrates how to send an agreement using a library document ID.

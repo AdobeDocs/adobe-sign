@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Send for Signing (Create an Agreement)
 
 Your CRM system or document management system can send/upload documents for signing, either automatically or through user-initiated actions. When the document gets signed by all the parties, a PDF copy of the signed document(agreement) can be retrieved by your application.

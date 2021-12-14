@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Overview
 
 ![Adobe Sign Developer's Guide](img/sign_overview_1.png)

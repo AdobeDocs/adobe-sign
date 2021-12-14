@@ -1,3 +1,5 @@
+ **NOTE**: This content is deprecated. Please use https://www.adobe.com/go/adobesign-api-overview
+
 # Get an Agreement’s Signing URL
 
 This sample client demonstrates how to to get the signing URL for an agreement.
