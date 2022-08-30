@@ -1,6 +1,8 @@
 Migrating From SOAP
 ===================
 
+Remove me. 
+
 If you are using the legacy Adobe Sign SOAP APIs, we highly recommend migrating your apps to consume the v6 REST APIs. The list below shows the SOAP endpoints with their REST equivalents. Both endpoints link directly to the full method description. \* `General-purpose Methods <#general-purpose-methods>`__ \* `Document Methods <#document-methods>`__ \* `Status Methods <#status-methods>`__ \* `User Methods <#user-methods>`__ \* `Web Form Methods <#web-form-methods>`__ \* `Test Methods <#test-methods>`__ \* `Deprecated Methods <#deprecated-methods-from-legacy-soap-versions>`__
 
   ## General-purpose Methods: \| **SOAP Endpoint** \| **REST Endpoint** \| \| :— \| :—- \| \| `getBaseUris <https://secure.na1.echosign.com/public/docs/EchoSignDocumentService22#getBaseUris>`__ \| `/baseUris, GET <https://secure.na1.echosign.com/public/docs/restapi/v6#!/baseUris/getBaseUris>`__ \|
